@@ -1,5 +1,0 @@
-UserAgent: *
-
-Disallow:
-
-Sitemap: https://www.blueeyetour.com/sitemap.xml
