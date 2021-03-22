@@ -486,7 +486,10 @@
 		<div class="places-row">
 			<!-- İndirim varsa -->
 							<div class="other-main
-								">
+				withDiscount				">
+									<span class="other-main__percentage">
+						50 %
+					</span>
 				
 				<a href="http://localhost/ofis/otomasyon/acente/Tour/detail/Hot-Air-Balloon-Flight-standard-flight"></a>
 				<div class="other-image">
@@ -510,13 +513,14 @@
 
 							</div>
 							<span>
-								7								Reviews							</span>
+								6								Reviews							</span>
 						</div>
 						<div class="other-right">
 							<p>
 								From							</p>
-							<p class="">
-																70 € 
+							<p class="other-main-fiyat--withDiscount">
+																	<small><del>90€</del></small>
+																115 € 
 							</p>
 						</div>
 					</div>
@@ -553,7 +557,7 @@
 							<p>
 								From							</p>
 							<p class="">
-																230 € 
+																150 € 
 							</p>
 						</div>
 					</div>
@@ -591,7 +595,7 @@
 							<p>
 								From							</p>
 							<p class="">
-																290 € 
+																280 € 
 							</p>
 						</div>
 					</div>
@@ -670,7 +674,10 @@
 		<div class="places-row">
 			<!-- İndirim varsa -->
 							<div class="other-main
-								">
+				withDiscount				">
+									<span class="other-main__percentage">
+						50 %
+					</span>
 				
 				<a href="http://localhost/ofis/otomasyon/acente/Tour/detail/Pamukkale-Tour-Full-Day"></a>
 				<div class="other-image">
@@ -699,7 +706,8 @@
 						<div class="other-right">
 							<p>
 								From							</p>
-							<p class="">
+							<p class="other-main-fiyat--withDiscount">
+																	<small><del>90€</del></small>
 																50 € 
 							</p>
 						</div>
@@ -853,7 +861,10 @@
 		<div class="places-row">
 			<!-- İndirim varsa -->
 							<div class="other-main
-								">
+				withDiscount				">
+									<span class="other-main__percentage">
+						50 %
+					</span>
 				
 				<a href="http://localhost/ofis/otomasyon/acente/Tour/detail/Bosphorus--Two-Continents-Tour-Full-Day-"></a>
 				<div class="other-image">
@@ -882,7 +893,8 @@
 						<div class="other-right">
 							<p>
 								From							</p>
-							<p class="">
+							<p class="other-main-fiyat--withDiscount">
+																	<small><del>90€</del></small>
 																70 € 
 							</p>
 						</div>

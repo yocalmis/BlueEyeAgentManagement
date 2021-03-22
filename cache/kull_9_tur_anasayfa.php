@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head><meta http-equiv="Content-Type" content="text/html; charset=big5">
 	<title>
 			
 			BlueEyeTour: Tours & Attractions, Tickets, Things to Do, Tours around Turkey			</title>
-	<meta charset="utf-8" />
+	
 	
 		
 		<meta name="description" content="BlueEyeTour: Tours & Attractions, Tickets, Things to Do, Tours around Turkey">
@@ -27,10 +27,10 @@
 <meta name="theme-color" content="#1A2B49">
 <meta name="msapplication-navbutton-color" content="#1A2B49">
 <meta name="apple-mobile-web-app-status-bar-style" content="#1A2B49"> 
-<link rel="apple-touch-icon" sizes="180x180" href="http://localhost/otomasyon/acente/assets_user/img/favicon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost/otomasyon/acente/assets_user/img/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost/otomasyon/acente/assets_user/img/favicon/favicon-16x16.png">
-<link rel="manifest" href="http://localhost/otomasyon/acente/assets_user/img/favicon/site.webmanifest">
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.blueeyetour.com/assets_user/img/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.blueeyetour.com/assets_user/img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.blueeyetour.com/assets_user/img/favicon/favicon-16x16.png">
+<link rel="manifest" href="https://www.blueeyetour.com/assets_user/img/favicon/site.webmanifest">
 <script>
 
 	var
@@ -120,7 +120,7 @@
 		],
 		
 		weekdaysAbbrev	: ['S', 'M', 'T', 'W', 'T', 'F', 'S']	};
-	window.base_url = 'http://localhost/otomasyon/acente/';
+	window.base_url = 'https://www.blueeyetour.com/';
 	window.i18n = {
 		error: 'Oops, something went wrong',
 		cart: {
@@ -136,22 +136,27 @@
 			post_comment_ok: 'Successful, you can check the tour page.'
 		}
 	}
+	window.userInfo = {
+	    mail: "yocalmis@gmail.com"
+	}
 
 
 </script>	<!-- materialize.css -->
-	<link type="text/css" rel="stylesheet" href="http://localhost/otomasyon/acente/assets_user/css/materialize.min.css" 
+	<link type="text/css" rel="stylesheet" href="https://www.blueeyetour.com/assets_user/css/materialize.min.css" 
 	media="screen,projection" defer/>
 	<!-- master.css -->
-	<link rel="stylesheet" type="text/css" href="http://localhost/otomasyon/acente/assets_user/css/master.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.blueeyetour.com/assets_user/css/master.css" />
 </head>
+
+
 
 <body>
 	<header>
 	<style>i{font-style: normal;}</style>
 	<nav>
 		<div class="nav-wrapper container main-menu">
-			<a href="http://localhost/otomasyon/acente/" class="brand-logo">
-				<img src="http://localhost/otomasyon/acente/assets_user/img/blue_eye_logo.svg" alt="Blue Eye Logo">
+			<a href="https://www.blueeyetour.com/" class="brand-logo">
+				<img src="https://www.blueeyetour.com/assets_user/img/blue_eye_logo.svg" alt="Blue Eye Logo">
 				<div class="l_t">
 					<h3>Blue Eye</h3>
 						
@@ -160,50 +165,50 @@
 									</div>
 			</a>
 			<a href="#" data-target="mobile-demo" class="sidenav-trigger">
-				<span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/outline-menu-24px.svg'></span>			</a>
+				<span data-url='https://www.blueeyetour.com/assets_user/img/icons/outline-menu-24px.svg'></span>			</a>
 			<ul id="nav-mobile" class="right hide-on-med-and-down">
 				<li>
-					<a href="http://localhost/otomasyon/acente/">
+					<a href="https://www.blueeyetour.com/">
 						<span class="nav__icon">
-							<span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/outline-directions_bus-24px.svg'></span>						</span>
+							<span data-url='https://www.blueeyetour.com/assets_user/img/icons/outline-directions_bus-24px.svg'></span>						</span>
 						Tour					</a>
 				</li> 
 				<!--		<li>
-					<a href="http://localhost/otomasyon/acente/otels">
+					<a href="https://www.blueeyetour.com/otels">
 						<i class="material-icons left">hotel</i>
 						Hotel					</a>
 				</li-->
 				<li>
-					<a href="http://localhost/otomasyon/acente/help">
+					<a href="https://www.blueeyetour.com/help">
 						<span class="nav__icon">
-							<span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/outline-help-24px.svg'></span>						</span>
+							<span data-url='https://www.blueeyetour.com/assets_user/img/icons/outline-help-24px.svg'></span>						</span>
 
 						Help					</a>
 				</li>
 				<!-- Giriş Yapılmış -->
 
 				<li>
-					<a href="http://localhost/otomasyon/acente/cart">
+					<a href="https://www.blueeyetour.com/cart">
 						<span class="nav__icon">
-							<span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/outline-local_grocery_store-24px.svg'></span>						</span>
+							<span data-url='https://www.blueeyetour.com/assets_user/img/icons/outline-local_grocery_store-24px.svg'></span>						</span>
 						Cart					</a>
 				</li>
 									<li class="big">
 						<a>
 							<span class="nav__icon">
-								<span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/outline-person-24px.svg'></span>							</span>
+								<span data-url='https://www.blueeyetour.com/assets_user/img/icons/outline-person-24px.svg'></span>							</span>
 							Yusuf &ouml;calmış						</a>
 					<div class="minDrop">
-						<a href="http://localhost/otomasyon/acente/reservation">
+						<a href="https://www.blueeyetour.com/reservation">
 							Reservations						</a>
-						<a href="http://localhost/otomasyon/acente/config">
+						<a href="https://www.blueeyetour.com/config">
 							Settings						</a>							
-						<a href="http://localhost/otomasyon/acente/wishlist">
+						<a href="https://www.blueeyetour.com/wishlist">
 							Wishlist						</a>
-						<a href="http://localhost/otomasyon/acente/history">
+						<a href="https://www.blueeyetour.com/history">
 							History						</a>
 						<p class="divider"></p>
-						<a href="http://localhost/otomasyon/acente/giris/cikis">
+						<a href="https://www.blueeyetour.com/giris/cikis">
 							Exit						</a>
 					</div>
 				</li>
@@ -218,75 +223,75 @@
 				<div class="user-view">
 					<span class="user-view__name">
 						<span class="user-view__icon">
-							<span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/outline-person-24px.svg'></span>						</span>
+							<span data-url='https://www.blueeyetour.com/assets_user/img/icons/outline-person-24px.svg'></span>						</span>
 						Yusuf &ouml;calmış					</span>
-					<a href="http://localhost/otomasyon/acente/giris/cikis" class="user-view__exit" 
+					<a href="https://www.blueeyetour.com/giris/cikis" class="user-view__exit" 
 						title="Exit">
-						<span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/outline-exit_to_app-24px.svg'></span>					</a>
+						<span data-url='https://www.blueeyetour.com/assets_user/img/icons/outline-exit_to_app-24px.svg'></span>					</a>
 				</div>
 			</li>
 			<li>
-				<a href="http://localhost/otomasyon/acente/">
+				<a href="https://www.blueeyetour.com/">
 					<span class="sidenav__icon">
-						<span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/outline-directions_bus-24px.svg'></span>					</span>
+						<span data-url='https://www.blueeyetour.com/assets_user/img/icons/outline-directions_bus-24px.svg'></span>					</span>
 					Tour				</a>
 			</li>
 			<!--<li>
-				<a href="http://localhost/otomasyon/acente/otels">
+				<a href="https://www.blueeyetour.com/otels">
 					<span class="sidenav__icon">
-						<span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/outline-hotel-24px.svg'></span>					</span>
+						<span data-url='https://www.blueeyetour.com/assets_user/img/icons/outline-hotel-24px.svg'></span>					</span>
 					Hotel				</a>
 			</li>-->
 			<li>
 				<a href="#" data-target="lng_crs" class="sidenav-trigger">
 					<span class="sidenav__icon">
-						<span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/outline-language-24px.svg'></span>					</span>
+						<span data-url='https://www.blueeyetour.com/assets_user/img/icons/outline-language-24px.svg'></span>					</span>
 					Eng					/ 
 					Euro 
 					(€)
 				</a>
 			</li>
 			<li>
-				<a href="http://localhost/otomasyon/acente/config">
+				<a href="https://www.blueeyetour.com/config">
 					<span class="sidenav__icon">
-						<span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/outline-settings-24px.svg'></span>					</span>
+						<span data-url='https://www.blueeyetour.com/assets_user/img/icons/outline-settings-24px.svg'></span>					</span>
 					Settings				</a>
 			</li>
 			<li>
-				<a href="http://localhost/otomasyon/acente/cart">
+				<a href="https://www.blueeyetour.com/cart">
 					<span class="sidenav__icon">
-						<span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/outline-local_grocery_store-24px.svg'></span>					</span>
+						<span data-url='https://www.blueeyetour.com/assets_user/img/icons/outline-local_grocery_store-24px.svg'></span>					</span>
 					Cart				</a>
 			</li>
 			<li>
-				<a href="http://localhost/otomasyon/acente/reservation">
+				<a href="https://www.blueeyetour.com/reservation">
 					<span class="sidenav__icon">
-						<span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/outline-event_available-24px.svg'></span>					</span>
+						<span data-url='https://www.blueeyetour.com/assets_user/img/icons/outline-event_available-24px.svg'></span>					</span>
 					Reservations				</a>
 			</li>
 			<li>
-				<a href="http://localhost/otomasyon/acente/wishlist">
+				<a href="https://www.blueeyetour.com/wishlist">
 					<span class="sidenav__icon">
-						<span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/outline-favorite-24px.svg'></span>					</span>
+						<span data-url='https://www.blueeyetour.com/assets_user/img/icons/outline-favorite-24px.svg'></span>					</span>
 					Wishlist				</a>
 			</li>
 			<li>
-				<a href="http://localhost/otomasyon/acente/history">
+				<a href="https://www.blueeyetour.com/history">
 					<span class="sidenav__icon">
-						<span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/outline-history-24px.svg'></span>					</span>
+						<span data-url='https://www.blueeyetour.com/assets_user/img/icons/outline-history-24px.svg'></span>					</span>
 					History				</a>
 			</li>
 			<li>
-				<a href="http://localhost/otomasyon/acente/help">
+				<a href="https://www.blueeyetour.com/help">
 					<span class="sidenav__icon">
-						<span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/help-24px.svg'></span>					</span>
+						<span data-url='https://www.blueeyetour.com/assets_user/img/icons/help-24px.svg'></span>					</span>
 					Help				</a>
 			</li>
 			<li class="divider" tabindex="-1"></li>
 			<li>
-				<a href="http://localhost/otomasyon/acente/giris/cikis">
+				<a href="https://www.blueeyetour.com/giris/cikis">
 					<span class="sidenav__icon sidenav__icon--exit">
-						<span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/outline-exit_to_app-24px.svg'></span>					</span>
+						<span data-url='https://www.blueeyetour.com/assets_user/img/icons/outline-exit_to_app-24px.svg'></span>					</span>
 					Exit				</a>
 			</li>
 		</ul>
@@ -300,54 +305,54 @@
 	<h5>Language</h5>
 	<p class="divider" tabindex="-1"></p>
 	<div class="lng_crs--l">
-		<a href="http://localhost/otomasyon/acente/lang/index/Tr" class="waves-effect">
-			<img src="http://localhost/otomasyon/acente/assets_user/img/flags/turkey.svg" 
+		<a href="https://www.blueeyetour.com/lang/index/Tr" class="waves-effect">
+			<img src="https://www.blueeyetour.com/assets_user/img/flags/turkey.svg" 
 			alt="Türkçe Flag">
 			Türkçe		</a>
-		<a href="http://localhost/otomasyon/acente/lang/index/Eng" class="waves-effect">
-			<img src="http://localhost/otomasyon/acente/assets_user/img/flags/united-kingdom.svg" 
+		<a href="https://www.blueeyetour.com/lang/index/Eng" class="waves-effect">
+			<img src="https://www.blueeyetour.com/assets_user/img/flags/united-kingdom.svg" 
 			alt="English Flag">
 			English		</a>
-		<a href="http://localhost/otomasyon/acente/lang/index/Ru" class="waves-effect">
-			<img src="http://localhost/otomasyon/acente/assets_user/img/flags/russia.svg" 
+		<a href="https://www.blueeyetour.com/lang/index/Ru" class="waves-effect">
+			<img src="https://www.blueeyetour.com/assets_user/img/flags/russia.svg" 
 			alt="Pусский Flag">
 			Pусский		</a>
 		<!--
-		<a href="http://localhost/otomasyon/acente/" class="waves-effect">
-			<img src="http://localhost/otomasyon/acente/assets_user/img/flags/china.svg" alt="中文 Flag">
+		<a href="https://www.blueeyetour.com/" class="waves-effect">
+			<img src="https://www.blueeyetour.com/assets_user/img/flags/china.svg" alt="中文 Flag">
 			中文		</a>
-		<a href="http://localhost/otomasyon/acente/" class="waves-effect">
-			<img src="http://localhost/otomasyon/acente/assets_user/img/flags/india.svg" alt="भारतीय Flag">
+		<a href="https://www.blueeyetour.com/" class="waves-effect">
+			<img src="https://www.blueeyetour.com/assets_user/img/flags/india.svg" alt="भारतीय Flag">
 			भारतीय		</a>
-		<a href="http://localhost/otomasyon/acente/" class="waves-effect">
-			<img src="http://localhost/otomasyon/acente/assets_user/img/flags/spain.svg" alt="Español Flag">
+		<a href="https://www.blueeyetour.com/" class="waves-effect">
+			<img src="https://www.blueeyetour.com/assets_user/img/flags/spain.svg" alt="Español Flag">
 			Español		</a>
 	-->
 </div>
 <h5>Currency</h5>
 <p class="divider" tabindex="-1"></p>
 <div class="lng_crs--c">
-	<a href="http://localhost/otomasyon/acente/currency/index/dollar" class="waves-effect">
+	<a href="https://www.blueeyetour.com/currency/index/dollar" class="waves-effect">
 		<span>$</span> 
 		USD Dollars
 	</a>
-	<a href="http://localhost/otomasyon/acente/currency/index/ruble" class="waves-effect">
+	<a href="https://www.blueeyetour.com/currency/index/ruble" class="waves-effect">
 		<span>₽</span> 
 		Pубль
 	</a>
-	<a href="http://localhost/otomasyon/acente/currency/index/euro" class="waves-effect">
+	<a href="https://www.blueeyetour.com/currency/index/euro" class="waves-effect">
 		<span>€</span> 
 		Euro
 	</a>
-	<a href="http://localhost/otomasyon/acente/currency/index/tl" class="waves-effect">
+	<a href="https://www.blueeyetour.com/currency/index/tl" class="waves-effect">
 		<span>₺</span> 
 		Türk Lirası
 	</a>
-	<a href="http://localhost/otomasyon/acente/currency/index/pound" class="waves-effect">
+	<a href="https://www.blueeyetour.com/currency/index/pound" class="waves-effect">
 		<span>£</span> 
 		Pound
 	</a>
-	<a href="http://localhost/otomasyon/acente/currency/index/dinar" class="waves-effect">
+	<a href="https://www.blueeyetour.com/currency/index/dinar" class="waves-effect">
 		<span>د.ك</span> 
 		Dinnar
 	</a>
@@ -370,6 +375,20 @@
   src="https://www.facebook.com/tr?id=461011591258150&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Facebook Pixel Code -->
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/60476914385de407571e2c5b/1f0bf4ud5';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
 	<main>
 		<script>
 			(function navFix() {
@@ -394,7 +413,7 @@
 			<div class="parallax-container">
 				<div class="parallax">
 						
-						<img src="http://localhost/otomasyon/acente/assets/resimler/home/1559f-cappadocia-turkey.jpg">
+						<img src="https://www.blueeyetour.com/assets/resimler/home/1559f-cappadocia-turkey.jpg">
 					</div>
 					<style>
 						.buy-ticket .btn.waves-effect:not(.modal-close){display:-webkit-flex;display:-moz-flex;display:-ms-flex;display:-o-flex;display:flex;-ms-align-items:center;align-items:center;justify-content:space-around;text-align:center;font-weight:500;background-color:var(--light-blue);border-radius:32px;margin-top:0;width:100%}
@@ -413,7 +432,7 @@
 							</li>
 						</ul>-->
 						<div id="tur_tab">
-							<form action="http://localhost/otomasyon/acente/Search/Word" method="Post" class="buy-form">
+							<form action="https://www.blueeyetour.com/Search/Word" method="Post" class="buy-form">
 								<div class="ticket-form-inner">
 									<div class="input-field">
 										<input id="where" name="word" type="text" class="autocomplete">
@@ -438,7 +457,7 @@
 							</form>
 						</div>
 						<div id="otel_tab" style="display: none;">
-							<form action="http://localhost/otomasyon/acente/otels/Search/Word" method="Post" class="buy-form">
+							<form action="https://www.blueeyetour.com/otels/Search/Word" method="Post" class="buy-form">
 								<div class="ticket-form-inner">
 									<div class="input-field">
 										<input id="where" name="word" type="text" class="autocomplete">
@@ -472,31 +491,31 @@
 			<div class="specs-inner">
 				<div class="specs-inner__spec spec">
 					<h6 class="spec__title">
-						<span data-url="http://localhost/otomasyon/acente/assets_user/img/icons/explore-24px.svg"></span>
+						<span data-url="https://www.blueeyetour.com/assets_user/img/icons/explore-24px.svg"></span>
 						Best Selection					</h6>
 					<p class="spec__text">
 						Our strict screening process means that you are only seeing the best quality tours, activities and attractions.					</p>
 				</div>
 				<div class="specs-inner__spec spec">
 					<h6 class="spec__title">
-						<span data-url="http://localhost/otomasyon/acente/assets_user/img/icons/thumb_up-24px.svg"></span>
+						<span data-url="https://www.blueeyetour.com/assets_user/img/icons/thumb_up-24px.svg"></span>
 						Best Price Guarantee					</h6>
 					<p class="spec__text">
 						Found a lower price elsewhere? We'll match it.					</p>
 				</div>
 				<div class="specs-inner__spec spec">
 					<h6 class="spec__title">
-						<span data-url="http://localhost/otomasyon/acente/assets_user/img/icons/security-24px.svg"></span>
+						<span data-url="https://www.blueeyetour.com/assets_user/img/icons/security-24px.svg"></span>
 						Secure Payments					</h6>
 					<p class="spec__text">
 						We use stripe to make your payments safe and secure.					</p>
 				</div>
 				<div class="specs-inner__spec spec">
 					<h6 class="spec__title">
-						<span data-url="http://localhost/otomasyon/acente/assets_user/img/icons/contact_support-24px.svg"></span>
+						<span data-url="https://www.blueeyetour.com/assets_user/img/icons/contact_support-24px.svg"></span>
 						24/7 Support					</h6>
 					<p class="spec__text">
-					We are available to answer any questions or concerns via phone or email.					</p>
+						We are available to answer any questions or concerns via phone or email.					</p>
 				</div>
 			</div>
 		</div>
@@ -506,14 +525,14 @@
 			<h4>
 				Unmissable Holiday stops			</h4>
 
-						
+			
 
 			<div class="places-inner">
 			<div class="places-main">
 				<div class="places-main__image">
 					<img
-					src="http://localhost/otomasyon/acente/assets_user/img/placeholder.svg"
-					data-src="http://localhost/otomasyon/acente/assets/resimler/sehirler/a3b81-8456e-kapadokya-balon.jpg"
+					src="https://www.blueeyetour.com/assets_user/img/placeholder.svg"
+					data-src="https://www.blueeyetour.com/assets/resimler/sehirler/04837-stocksnap_f90e2e0647.jpg"
 					class="lazy" alt="Cappadocia" />
 				</div>
 				<div class="places-main-text">				<h4>Cappadocia</h4>
@@ -521,512 +540,540 @@
 				<p><p>
 	Cappadocia has a charming and mysterious atmosphere with carved houses, churches, valleys and fairy chimneys.&nbsp;</p>
 				<a class="btn" href="
-				http://localhost/otomasyon/acente/Categories/detail/Cappadocia">
+				https://www.blueeyetour.com/Categories/detail/Cappadocia">
 				Explore More			</a>
 		</div>
 	</div>
 	<div class="places-other">
 		<div class="places-row">
-							<div class="other-main">
-					<a href="http://localhost/otomasyon/acente/Tour/detail/Hot-Air-Balloon-Flight-standard-flight"></a>
-					<div class="other-image">
-						<img 
-						src="http://localhost/otomasyon/acente/assets_user/img/placeholder.svg"
-						data-src="http://localhost/otomasyon/acente/assets/resimler/turlar/a35df-hot-air-balloons.jpg"
-						class="lazy" alt="Hot Air Balloon Flight (standard flight)" />
-					</div>
-					<div class="other-text-inner">
-						<a>
-							Hot Air Balloon Flight (standard flight)						</a>
-						<div class="bottom-inner">
-							<div class="other-left">
-								<div class="stars">
+			<!-- İndirim varsa -->
+							<div class="other-main
+								">
+				
+				<a href="https://www.blueeyetour.com/Tour/detail/Hot-Air-Balloon"></a>
+				<div class="other-image">
+					<img 
+					src="https://www.blueeyetour.com/assets_user/img/placeholder.svg"
+					data-src="https://www.blueeyetour.com/assets/resimler/turlar/a35df-hot-air-balloons.jpg"
+					class="lazy" alt="Hot Air Balloon" />
+				</div>
+				<div class="other-text-inner">
+					<a>
+						Hot Air Balloon					</a>
+					<div class="bottom-inner">
+						<div class="other-left">
+							<div class="stars">
 
 
 
-									<span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star.svg'></span><span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star.svg'></span><span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star.svg'></span><span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star.svg'></span><span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span>
+								<span data-url='https://www.blueeyetour.com/assets_user/img/icons/star.svg'></span><span data-url='https://www.blueeyetour.com/assets_user/img/icons/star.svg'></span><span data-url='https://www.blueeyetour.com/assets_user/img/icons/star.svg'></span><span data-url='https://www.blueeyetour.com/assets_user/img/icons/star.svg'></span><span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span>
 
 
 
-								</div>
-								<span>
-									6									Reviews								</span>
 							</div>
-							<div class="other-right">
-								<p>
-									From								</p>
-								<p>
-									115 € 
-								</p>
-							</div>
+							<span>
+								10								Reviews							</span>
+						</div>
+						<div class="other-right">
+							<p>
+								From							</p>
+							<p class="">
+																100 € 
+							</p>
 						</div>
 					</div>
 				</div>
-								<div class="other-main">
-					<a href="http://localhost/otomasyon/acente/Tour/detail/Hot-Air-Balloon-Flight-comfort-flight"></a>
-					<div class="other-image">
-						<img 
-						src="http://localhost/otomasyon/acente/assets_user/img/placeholder.svg"
-						data-src="http://localhost/otomasyon/acente/assets/resimler/turlar/2e1ad-hot-air-balloons-1920x1080.jpg"
-						class="lazy" alt="Hot Air Balloon Flight (comfort flight)" />
-					</div>
-					<div class="other-text-inner">
-						<a>
-							Hot Air Balloon Flight (comfort flight)						</a>
-						<div class="bottom-inner">
-							<div class="other-left">
-								<div class="stars">
+			</div>
+							<div class="other-main
+								">
+				
+				<a href="https://www.blueeyetour.com/Tour/detail/Hot-Air-Balloon-Flight-comfort-flight"></a>
+				<div class="other-image">
+					<img 
+					src="https://www.blueeyetour.com/assets_user/img/placeholder.svg"
+					data-src="https://www.blueeyetour.com/assets/resimler/turlar/2e1ad-hot-air-balloons-1920x1080.jpg"
+					class="lazy" alt="Hot Air Balloon Flight (comfort flight)" />
+				</div>
+				<div class="other-text-inner">
+					<a>
+						Hot Air Balloon Flight (comfort flight)					</a>
+					<div class="bottom-inner">
+						<div class="other-left">
+							<div class="stars">
 
 
 
-									<span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span><span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span><span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span><span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span><span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span>
+								<span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span><span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span><span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span><span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span><span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span>
 
 
 
-								</div>
-								<span>
-									0									Reviews								</span>
 							</div>
-							<div class="other-right">
-								<p>
-									From								</p>
-								<p>
-									150 € 
-								</p>
-							</div>
+							<span>
+								2								Reviews							</span>
+						</div>
+						<div class="other-right">
+							<p>
+								From							</p>
+							<p class="">
+																120 € 
+							</p>
 						</div>
 					</div>
 				</div>
+			</div>
+			</div>
+			<div class="places-row">				<div class="other-main
+								">
+				
+				<a href="https://www.blueeyetour.com/Tour/detail/Cappadocia-Camel-Tour1-hour"></a>
+				<div class="other-image">
+					<img 
+					src="https://www.blueeyetour.com/assets_user/img/placeholder.svg"
+					data-src="https://www.blueeyetour.com/assets/resimler/turlar/4a42e-deve-turu-11.jpg"
+					class="lazy" alt="Cappadocia Camel Tour(1 hour)" />
 				</div>
-				<div class="places-row">				<div class="other-main">
-					<a href="http://localhost/otomasyon/acente/Tour/detail/Hot-Air-Balloon-Flight-deluxe-flight"></a>
-					<div class="other-image">
-						<img 
-						src="http://localhost/otomasyon/acente/assets_user/img/placeholder.svg"
-						data-src="http://localhost/otomasyon/acente/assets/resimler/turlar/c75d9-hot-air-balloon-21.jpg"
-						class="lazy" alt="Hot Air Balloon Flight (deluxe flight)" />
-					</div>
-					<div class="other-text-inner">
-						<a>
-							Hot Air Balloon Flight (deluxe flight)						</a>
-						<div class="bottom-inner">
-							<div class="other-left">
-								<div class="stars">
+				<div class="other-text-inner">
+					<a>
+						Cappadocia Camel Tour(1 hour)					</a>
+					<div class="bottom-inner">
+						<div class="other-left">
+							<div class="stars">
 
 
 
-									<span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span><span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span><span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span><span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span><span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span>
+								<span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span><span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span><span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span><span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span><span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span>
 
 
 
-								</div>
-								<span>
-									0									Reviews								</span>
 							</div>
-							<div class="other-right">
-								<p>
-									From								</p>
-								<p>
-									280 € 
-								</p>
-							</div>
+							<span>
+								0								Reviews							</span>
+						</div>
+						<div class="other-right">
+							<p>
+								From							</p>
+							<p class="">
+																30 € 
+							</p>
 						</div>
 					</div>
 				</div>
-								<div class="other-main">
-					<a href="http://localhost/otomasyon/acente/Tour/detail/Cappadocia-Camel-Tour1-hour"></a>
-					<div class="other-image">
-						<img 
-						src="http://localhost/otomasyon/acente/assets_user/img/placeholder.svg"
-						data-src="http://localhost/otomasyon/acente/assets/resimler/turlar/4a42e-deve-turu-11.jpg"
-						class="lazy" alt="Cappadocia Camel Tour(1 hour)" />
-					</div>
-					<div class="other-text-inner">
-						<a>
-							Cappadocia Camel Tour(1 hour)						</a>
-						<div class="bottom-inner">
-							<div class="other-left">
-								<div class="stars">
+			</div>
+							<div class="other-main
+								">
+				
+				<a href="https://www.blueeyetour.com/Tour/detail/Cappadocia-Mix-Tour"></a>
+				<div class="other-image">
+					<img 
+					src="https://www.blueeyetour.com/assets_user/img/placeholder.svg"
+					data-src="https://www.blueeyetour.com/assets/resimler/turlar/37654-open-air-museum.jpg"
+					class="lazy" alt="Cappadocia Mix Tour" />
+				</div>
+				<div class="other-text-inner">
+					<a>
+						Cappadocia Mix Tour					</a>
+					<div class="bottom-inner">
+						<div class="other-left">
+							<div class="stars">
 
 
 
-									<span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span><span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span><span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span><span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span><span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span>
+								<span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span><span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span><span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span><span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span><span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span>
 
 
 
-								</div>
-								<span>
-									0									Reviews								</span>
 							</div>
-							<div class="other-right">
-								<p>
-									From								</p>
-								<p>
-									30 € 
-								</p>
-							</div>
+							<span>
+								3								Reviews							</span>
+						</div>
+						<div class="other-right">
+							<p>
+								From							</p>
+							<p class="">
+																55 € 
+							</p>
 						</div>
 					</div>
 				</div>
-							
+			</div>
+						
 
 
 
 
 
-
-		</div>
 
 	</div>
+
+</div>
 </div>
 
-			
+
 
 			<div class="places-inner reverse">
 			<div class="places-main">
 				<div class="places-main__image">
 					<img
-					src="http://localhost/otomasyon/acente/assets_user/img/placeholder.svg"
-					data-src="http://localhost/otomasyon/acente/assets/resimler/sehirler/42cd0-traverten.jpg"
-					class="lazy" alt="Pamukkale" />
+					src="https://www.blueeyetour.com/assets_user/img/placeholder.svg"
+					data-src="https://www.blueeyetour.com/assets/resimler/sehirler/cfeae-antalya-1_720x520.jpg"
+					class="lazy" alt="Antalya" />
 				</div>
-				<div class="places-main-text">				<h4>Pamukkale</h4>
+				<div class="places-main-text">				<h4>Antalya</h4>
 
 				<p><p>
-	Pamukkale, welcomes the visitors like a bride with white travertines.</p>
+	Welcome to Antalya</p>
 </p>
 				<a class="btn" href="
-				http://localhost/otomasyon/acente/Categories/detail/Pamukkale">
+				https://www.blueeyetour.com/Categories/detail/Antalya">
 				Explore More			</a>
 		</div>
 	</div>
 	<div class="places-other">
 		<div class="places-row">
-							<div class="other-main">
-					<a href="http://localhost/otomasyon/acente/Tour/detail/Pamukkale-Tour-Full-Day"></a>
-					<div class="other-image">
-						<img 
-						src="http://localhost/otomasyon/acente/assets_user/img/placeholder.svg"
-						data-src="http://localhost/otomasyon/acente/assets/resimler/turlar/6ce62-traverten2.jpg"
-						class="lazy" alt="Pamukkale Tour (Full Day)" />
-					</div>
-					<div class="other-text-inner">
-						<a>
-							Pamukkale Tour (Full Day)						</a>
-						<div class="bottom-inner">
-							<div class="other-left">
-								<div class="stars">
+			<!-- İndirim varsa -->
+							<div class="other-main
+								">
+				
+				<a href="https://www.blueeyetour.com/Tour/detail/Perge-Aspendos-Side-Tour"></a>
+				<div class="other-image">
+					<img 
+					src="https://www.blueeyetour.com/assets_user/img/placeholder.svg"
+					data-src="https://www.blueeyetour.com/assets/resimler/turlar/4989b-aspendos.jpg"
+					class="lazy" alt="Perge, Aspendos, Side Tour" />
+				</div>
+				<div class="other-text-inner">
+					<a>
+						Perge, Aspendos, Side Tour					</a>
+					<div class="bottom-inner">
+						<div class="other-left">
+							<div class="stars">
 
 
 
-									<span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span><span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span><span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span><span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span><span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span>
+								<span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span><span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span><span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span><span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span><span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span>
 
 
 
-								</div>
-								<span>
-									0									Reviews								</span>
 							</div>
-							<div class="other-right">
-								<p>
-									From								</p>
-								<p>
-									50 € 
-								</p>
-							</div>
+							<span>
+								0								Reviews							</span>
+						</div>
+						<div class="other-right">
+							<p>
+								From							</p>
+							<p class="">
+																49 € 
+							</p>
 						</div>
 					</div>
 				</div>
-								<div class="other-main">
-					<a href="http://localhost/otomasyon/acente/Tour/detail/Pamukkale-Tour-Full-Day-from-Kusadasi"></a>
-					<div class="other-image">
-						<img 
-						src="http://localhost/otomasyon/acente/assets_user/img/placeholder.svg"
-						data-src="http://localhost/otomasyon/acente/assets/resimler/turlar/5a313-traverten2.jpg"
-						class="lazy" alt="Pamukkale Tour Full Day (from Kusadası)" />
-					</div>
-					<div class="other-text-inner">
-						<a>
-							Pamukkale Tour Full Day (from Kusadası)						</a>
-						<div class="bottom-inner">
-							<div class="other-left">
-								<div class="stars">
+			</div>
+							<div class="other-main
+								">
+				
+				<a href="https://www.blueeyetour.com/Tour/detail/Termessos--Duden-Waterfalls-Tour"></a>
+				<div class="other-image">
+					<img 
+					src="https://www.blueeyetour.com/assets_user/img/placeholder.svg"
+					data-src="https://www.blueeyetour.com/assets/resimler/turlar/630c4-duden-waterfall-1920x1080.jpg"
+					class="lazy" alt="Termessos & Düden Waterfalls Tour" />
+				</div>
+				<div class="other-text-inner">
+					<a>
+						Termessos & Düden Waterfalls Tour					</a>
+					<div class="bottom-inner">
+						<div class="other-left">
+							<div class="stars">
 
 
 
-									<span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span><span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span><span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span><span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span><span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span>
+								<span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span><span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span><span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span><span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span><span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span>
 
 
 
-								</div>
-								<span>
-									0									Reviews								</span>
 							</div>
-							<div class="other-right">
-								<p>
-									From								</p>
-								<p>
-									70 € 
-								</p>
-							</div>
+							<span>
+								0								Reviews							</span>
+						</div>
+						<div class="other-right">
+							<p>
+								From							</p>
+							<p class="">
+																44 € 
+							</p>
 						</div>
 					</div>
 				</div>
+			</div>
+			</div>
+			<div class="places-row">				<div class="other-main
+								">
+				
+				<a href="https://www.blueeyetour.com/Tour/detail/Demre-Myra--Kekova-Sunken-City-Tour"></a>
+				<div class="other-image">
+					<img 
+					src="https://www.blueeyetour.com/assets_user/img/placeholder.svg"
+					data-src="https://www.blueeyetour.com/assets/resimler/turlar/51c92-kekova.jpg"
+					class="lazy" alt="Demre, Myra & Kekova Sunken City Tour" />
 				</div>
-				<div class="places-row">				<div class="other-main">
-					<a href="http://localhost/otomasyon/acente/Tour/detail/Aphrodisias-Tour-Full-Day"></a>
-					<div class="other-image">
-						<img 
-						src="http://localhost/otomasyon/acente/assets_user/img/placeholder.svg"
-						data-src="http://localhost/otomasyon/acente/assets/resimler/turlar/d4360-aspendos-pamukkale.jpg"
-						class="lazy" alt="Aphrodisias Tour Full Day" />
-					</div>
-					<div class="other-text-inner">
-						<a>
-							Aphrodisias Tour Full Day						</a>
-						<div class="bottom-inner">
-							<div class="other-left">
-								<div class="stars">
+				<div class="other-text-inner">
+					<a>
+						Demre, Myra & Kekova Sunken City Tour					</a>
+					<div class="bottom-inner">
+						<div class="other-left">
+							<div class="stars">
 
 
 
-									<span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span><span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span><span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span><span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span><span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span>
+								<span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span><span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span><span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span><span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span><span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span>
 
 
 
-								</div>
-								<span>
-									0									Reviews								</span>
 							</div>
-							<div class="other-right">
-								<p>
-									From								</p>
-								<p>
-									75 € 
-								</p>
-							</div>
+							<span>
+								0								Reviews							</span>
+						</div>
+						<div class="other-right">
+							<p>
+								From							</p>
+							<p class="">
+																60 € 
+							</p>
 						</div>
 					</div>
 				</div>
-								<div class="other-main">
-					<a href="http://localhost/otomasyon/acente/Tour/detail/Laodicea-Kaklik-Cave-Honaz-Waterfall-Full-Day-Tour"></a>
-					<div class="other-image">
-						<img 
-						src="http://localhost/otomasyon/acente/assets_user/img/placeholder.svg"
-						data-src="http://localhost/otomasyon/acente/assets/resimler/turlar/3c771-laodicea_temple.jpg"
-						class="lazy" alt="Laodicea, Kaklik Cave, Honaz Waterfall Full Day Tour" />
-					</div>
-					<div class="other-text-inner">
-						<a>
-							Laodicea, Kaklik Cave, Honaz Waterfall Full Day Tour						</a>
-						<div class="bottom-inner">
-							<div class="other-left">
-								<div class="stars">
+			</div>
+							<div class="other-main
+								">
+				
+				<a href="https://www.blueeyetour.com/Tour/detail/Olympos--Chimera-Tour"></a>
+				<div class="other-image">
+					<img 
+					src="https://www.blueeyetour.com/assets_user/img/placeholder.svg"
+					data-src="https://www.blueeyetour.com/assets/resimler/turlar/6fa6b-olympos-antalya.jpg"
+					class="lazy" alt="Olympos & Chimera Tour" />
+				</div>
+				<div class="other-text-inner">
+					<a>
+						Olympos & Chimera Tour					</a>
+					<div class="bottom-inner">
+						<div class="other-left">
+							<div class="stars">
 
 
 
-									<span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span><span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span><span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span><span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span><span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span>
+								<span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span><span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span><span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span><span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span><span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span>
 
 
 
-								</div>
-								<span>
-									0									Reviews								</span>
 							</div>
-							<div class="other-right">
-								<p>
-									From								</p>
-								<p>
-									75 € 
-								</p>
-							</div>
+							<span>
+								0								Reviews							</span>
+						</div>
+						<div class="other-right">
+							<p>
+								From							</p>
+							<p class="">
+																45 € 
+							</p>
 						</div>
 					</div>
 				</div>
-							
+			</div>
+						
 
 
 
 
 
-
-		</div>
 
 	</div>
+
+</div>
 </div>
 
-			
+
 
 			<div class="places-inner">
 			<div class="places-main">
 				<div class="places-main__image">
 					<img
-					src="http://localhost/otomasyon/acente/assets_user/img/placeholder.svg"
-					data-src="http://localhost/otomasyon/acente/assets/resimler/sehirler/8bb34-ayasofya-59_720x520.jpg"
-					class="lazy" alt="İstanbul" />
+					src="https://www.blueeyetour.com/assets_user/img/placeholder.svg"
+					data-src="https://www.blueeyetour.com/assets/resimler/sehirler/42cd0-traverten.jpg"
+					class="lazy" alt="Pamukkale" />
 				</div>
-				<div class="places-main-text smoth">				<h4>İstanbul</h4>
+				<div class="places-main-text smoth">				<h4>Pamukkale</h4>
 
 				<p><p>
-	Istanbul is one of the largest, most important and most beautiful cities in the world.&nbsp; &nbsp; &nbsp; &nbsp; &</p>
+	Pamukkale, welcomes the visitors like a bride with white travertines.</p>
+</p>
 				<a class="btn" href="
-				http://localhost/otomasyon/acente/Categories/detail/istanbul">
+				https://www.blueeyetour.com/Categories/detail/Pamukkale">
 				Explore More			</a>
 		</div>
 	</div>
 	<div class="places-other">
 		<div class="places-row">
-							<div class="other-main">
-					<a href="http://localhost/otomasyon/acente/Tour/detail/Bosphorus--Two-Continents-Tour-Full-Day-"></a>
-					<div class="other-image">
-						<img 
-						src="http://localhost/otomasyon/acente/assets_user/img/placeholder.svg"
-						data-src="http://localhost/otomasyon/acente/assets/resimler/turlar/3c571-cruise-on-the-bosphorus-istanbul-1.jpg"
-						class="lazy" alt="Bosphorus & Two Continents Tour (Full Day) " />
-					</div>
-					<div class="other-text-inner">
-						<a>
-							Bosphorus & Two Continents Tour (Full Day) 						</a>
-						<div class="bottom-inner">
-							<div class="other-left">
-								<div class="stars">
+			<!-- İndirim varsa -->
+							<div class="other-main
+								">
+				
+				<a href="https://www.blueeyetour.com/Tour/detail/Pamukkale-Tour-Full-Day"></a>
+				<div class="other-image">
+					<img 
+					src="https://www.blueeyetour.com/assets_user/img/placeholder.svg"
+					data-src="https://www.blueeyetour.com/assets/resimler/turlar/6ce62-traverten2.jpg"
+					class="lazy" alt="Pamukkale Tour (Full Day)" />
+				</div>
+				<div class="other-text-inner">
+					<a>
+						Pamukkale Tour (Full Day)					</a>
+					<div class="bottom-inner">
+						<div class="other-left">
+							<div class="stars">
 
 
 
-									<span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span><span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span><span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span><span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span><span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span>
+								<span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span><span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span><span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span><span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span><span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span>
 
 
 
-								</div>
-								<span>
-									0									Reviews								</span>
 							</div>
-							<div class="other-right">
-								<p>
-									From								</p>
-								<p>
-									70 € 
-								</p>
-							</div>
+							<span>
+								0								Reviews							</span>
+						</div>
+						<div class="other-right">
+							<p>
+								From							</p>
+							<p class="">
+																50 € 
+							</p>
 						</div>
 					</div>
 				</div>
-								<div class="other-main">
-					<a href="http://localhost/otomasyon/acente/Tour/detail/istanbul-Airport-Transfer-Private-Shuttle"></a>
-					<div class="other-image">
-						<img 
-						src="http://localhost/otomasyon/acente/assets_user/img/placeholder.svg"
-						data-src="http://localhost/otomasyon/acente/assets/resimler/turlar/eedcb-airport-pick-up-2-1920x1080.jpg"
-						class="lazy" alt="İstanbul Airport Transfer (Private Shuttle)" />
-					</div>
-					<div class="other-text-inner">
-						<a>
-							İstanbul Airport Transfer (Private Shuttle)						</a>
-						<div class="bottom-inner">
-							<div class="other-left">
-								<div class="stars">
+			</div>
+							<div class="other-main
+								">
+				
+				<a href="https://www.blueeyetour.com/Tour/detail/Pamukkale-Tour-Full-Day-from-Kusadasi"></a>
+				<div class="other-image">
+					<img 
+					src="https://www.blueeyetour.com/assets_user/img/placeholder.svg"
+					data-src="https://www.blueeyetour.com/assets/resimler/turlar/5a313-traverten2.jpg"
+					class="lazy" alt="Pamukkale Tour Full Day (from Kusadası)" />
+				</div>
+				<div class="other-text-inner">
+					<a>
+						Pamukkale Tour Full Day (from Kusadası)					</a>
+					<div class="bottom-inner">
+						<div class="other-left">
+							<div class="stars">
 
 
 
-									<span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span><span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span><span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span><span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span><span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span>
+								<span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span><span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span><span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span><span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span><span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span>
 
 
 
-								</div>
-								<span>
-									0									Reviews								</span>
 							</div>
-							<div class="other-right">
-								<p>
-									From								</p>
-								<p>
-									60 € 
-								</p>
-							</div>
+							<span>
+								0								Reviews							</span>
+						</div>
+						<div class="other-right">
+							<p>
+								From							</p>
+							<p class="">
+																70 € 
+							</p>
 						</div>
 					</div>
 				</div>
+			</div>
+			</div>
+			<div class="places-row">				<div class="other-main
+								">
+				
+				<a href="https://www.blueeyetour.com/Tour/detail/Aphrodisias-Tour-Full-Day"></a>
+				<div class="other-image">
+					<img 
+					src="https://www.blueeyetour.com/assets_user/img/placeholder.svg"
+					data-src="https://www.blueeyetour.com/assets/resimler/turlar/5be43-aphrodisias-05.jpg"
+					class="lazy" alt="Aphrodisias Tour Full Day" />
 				</div>
-				<div class="places-row">				<div class="other-main">
-					<a href="http://localhost/otomasyon/acente/Tour/detail/istanbul-Sabiha-Gokcen-Airport-Transfer-Private-Shuttle"></a>
-					<div class="other-image">
-						<img 
-						src="http://localhost/otomasyon/acente/assets_user/img/placeholder.svg"
-						data-src="http://localhost/otomasyon/acente/assets/resimler/turlar/007ac-airport-pick-up-2-1920x1080.jpg"
-						class="lazy" alt="İstanbul Sabiha Gokcen Airport Transfer( Private Shuttle)" />
-					</div>
-					<div class="other-text-inner">
-						<a>
-							İstanbul Sabiha Gokcen Airport Transfer( Private Shuttle)						</a>
-						<div class="bottom-inner">
-							<div class="other-left">
-								<div class="stars">
+				<div class="other-text-inner">
+					<a>
+						Aphrodisias Tour Full Day					</a>
+					<div class="bottom-inner">
+						<div class="other-left">
+							<div class="stars">
 
 
 
-									<span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span><span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span><span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span><span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span><span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span>
+								<span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span><span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span><span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span><span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span><span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span>
 
 
 
-								</div>
-								<span>
-									0									Reviews								</span>
 							</div>
-							<div class="other-right">
-								<p>
-									From								</p>
-								<p>
-									75 € 
-								</p>
-							</div>
+							<span>
+								0								Reviews							</span>
+						</div>
+						<div class="other-right">
+							<p>
+								From							</p>
+							<p class="">
+																75 € 
+							</p>
 						</div>
 					</div>
 				</div>
-								<div class="other-main">
-					<a href="http://localhost/otomasyon/acente/Tour/detail/Beylerbeyi-Palace-Tour-Half-Day-Afternoon"></a>
-					<div class="other-image">
-						<img 
-						src="http://localhost/otomasyon/acente/assets_user/img/placeholder.svg"
-						data-src="http://localhost/otomasyon/acente/assets/resimler/turlar/c38e4-beylerbeyi-palace.jpg"
-						class="lazy" alt="Beylerbeyi Palace Tour (Half Day Afternoon)" />
-					</div>
-					<div class="other-text-inner">
-						<a>
-							Beylerbeyi Palace Tour (Half Day Afternoon)						</a>
-						<div class="bottom-inner">
-							<div class="other-left">
-								<div class="stars">
+			</div>
+							<div class="other-main
+								">
+				
+				<a href="https://www.blueeyetour.com/Tour/detail/Laodicea-Kaklik-Cave-Honaz-Waterfall-Full-Day-Tour"></a>
+				<div class="other-image">
+					<img 
+					src="https://www.blueeyetour.com/assets_user/img/placeholder.svg"
+					data-src="https://www.blueeyetour.com/assets/resimler/turlar/08c46-laodicea_temple-01.jpg"
+					class="lazy" alt="Laodicea, Kaklik Cave, Honaz Waterfall Full Day Tour" />
+				</div>
+				<div class="other-text-inner">
+					<a>
+						Laodicea, Kaklik Cave, Honaz Waterfall Full Day Tour					</a>
+					<div class="bottom-inner">
+						<div class="other-left">
+							<div class="stars">
 
 
 
-									<span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span><span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span><span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span><span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span><span data-url='http://localhost/otomasyon/acente/assets_user/img/icons/star_border.svg'></span>
+								<span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span><span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span><span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span><span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span><span data-url='https://www.blueeyetour.com/assets_user/img/icons/star_border.svg'></span>
 
 
 
-								</div>
-								<span>
-									0									Reviews								</span>
 							</div>
-							<div class="other-right">
-								<p>
-									From								</p>
-								<p>
-									35 € 
-								</p>
-							</div>
+							<span>
+								0								Reviews							</span>
+						</div>
+						<div class="other-right">
+							<p>
+								From							</p>
+							<p class="">
+																75 € 
+							</p>
 						</div>
 					</div>
 				</div>
-							
+			</div>
+						
 
 
 
 
 
-
-		</div>
 
 	</div>
+
+</div>
 </div>
 
 	
@@ -1041,7 +1088,7 @@
 				<div class="container">
 					<div class="row abone-row">
 						<div class="col">
-							<form id="abone" method="post" action="http://localhost/otomasyon/acente/giris/abone">
+							<form id="abone" method="post" action="https://www.blueeyetour.com/giris/abone">
 								<div class="input-field">
 									<input id="email" type="email" name="email" required="required">
 									<label for="email">
@@ -1071,59 +1118,11 @@
 				
 				
 				<div class="top-places-item">
-					<a href="http://localhost/otomasyon/acente/Category/detail/Safranbolu-Tours">
+					<a href="https://www.blueeyetour.com/Category/detail/Ankara-Tours">
 						<figure>
 							<img 
-							src="http://localhost/otomasyon/acente/assets_user/img/placeholder.svg"
-							data-src="http://localhost/otomasyon/acente/assets/resimler/sehirler/56c43-safranbolu-evleri-720x520.jpg" 
-							class="lazy"
-							alt="Safranbolu Tours">
-						</figure>
-						<h5>Safranbolu Tours</h5>
-					</a>
-				</div>
-
-			
-				
-				
-				<div class="top-places-item">
-					<a href="http://localhost/otomasyon/acente/Category/detail/Trabzon-Tour">
-						<figure>
-							<img 
-							src="http://localhost/otomasyon/acente/assets_user/img/placeholder.svg"
-							data-src="http://localhost/otomasyon/acente/assets/resimler/sehirler/6bc86-uzungol_2.jpg" 
-							class="lazy"
-							alt="Trabzon Tour">
-						</figure>
-						<h5>Trabzon Tour</h5>
-					</a>
-				</div>
-
-			
-				
-				
-				<div class="top-places-item">
-					<a href="http://localhost/otomasyon/acente/Category/detail/Bursa-Tours">
-						<figure>
-							<img 
-							src="http://localhost/otomasyon/acente/assets_user/img/placeholder.svg"
-							data-src="http://localhost/otomasyon/acente/assets/resimler/sehirler/a3e37-720x520.jpg" 
-							class="lazy"
-							alt="Bursa Tours">
-						</figure>
-						<h5>Bursa Tours</h5>
-					</a>
-				</div>
-
-			
-				
-				
-				<div class="top-places-item">
-					<a href="http://localhost/otomasyon/acente/Category/detail/Ankara-Tours">
-						<figure>
-							<img 
-							src="http://localhost/otomasyon/acente/assets_user/img/placeholder.svg"
-							data-src="http://localhost/otomasyon/acente/assets/resimler/sehirler/cb769-anitkabir-2.jpg" 
+							src="https://www.blueeyetour.com/assets_user/img/placeholder.svg"
+							data-src="https://www.blueeyetour.com/assets/resimler/sehirler/d9ab9-anitkabir-05.jpg" 
 							class="lazy"
 							alt="Ankara Tours">
 						</figure>
@@ -1135,11 +1134,11 @@
 				
 				
 				<div class="top-places-item">
-					<a href="http://localhost/otomasyon/acente/Category/detail/Konya-Tours">
+					<a href="https://www.blueeyetour.com/Category/detail/Konya-Tours">
 						<figure>
 							<img 
-							src="http://localhost/otomasyon/acente/assets_user/img/placeholder.svg"
-							data-src="http://localhost/otomasyon/acente/assets/resimler/sehirler/58caf-konya-1-720x520.jpg" 
+							src="https://www.blueeyetour.com/assets_user/img/placeholder.svg"
+							data-src="https://www.blueeyetour.com/assets/resimler/sehirler/58caf-konya-1-720x520.jpg" 
 							class="lazy"
 							alt="Konya Tours">
 						</figure>
@@ -1151,11 +1150,11 @@
 				
 				
 				<div class="top-places-item">
-					<a href="http://localhost/otomasyon/acente/Category/detail/Nemrut-Tours">
+					<a href="https://www.blueeyetour.com/Category/detail/Nemrut-Tours">
 						<figure>
 							<img 
-							src="http://localhost/otomasyon/acente/assets_user/img/placeholder.svg"
-							data-src="http://localhost/otomasyon/acente/assets/resimler/sehirler/df452-adiyaman.jpg" 
+							src="https://www.blueeyetour.com/assets_user/img/placeholder.svg"
+							data-src="https://www.blueeyetour.com/assets/resimler/sehirler/df452-adiyaman.jpg" 
 							class="lazy"
 							alt="Nemrut Tours">
 						</figure>
@@ -1167,11 +1166,11 @@
 				
 				
 				<div class="top-places-item">
-					<a href="http://localhost/otomasyon/acente/Category/detail/Sanliurfa-Tours">
+					<a href="https://www.blueeyetour.com/Category/detail/Sanliurfa-Tours">
 						<figure>
 							<img 
-							src="http://localhost/otomasyon/acente/assets_user/img/placeholder.svg"
-							data-src="http://localhost/otomasyon/acente/assets/resimler/sehirler/add45-goebeklitepe.jpg" 
+							src="https://www.blueeyetour.com/assets_user/img/placeholder.svg"
+							data-src="https://www.blueeyetour.com/assets/resimler/sehirler/add45-goebeklitepe.jpg" 
 							class="lazy"
 							alt="Sanlıurfa Tours">
 						</figure>
@@ -1183,11 +1182,11 @@
 				
 				
 				<div class="top-places-item">
-					<a href="http://localhost/otomasyon/acente/Category/detail/Fethiye-Tours-and-Activities">
+					<a href="https://www.blueeyetour.com/Category/detail/Fethiye-Tours-and-Activities">
 						<figure>
 							<img 
-							src="http://localhost/otomasyon/acente/assets_user/img/placeholder.svg"
-							data-src="http://localhost/otomasyon/acente/assets/resimler/sehirler/41d90-fethiye-paragliding-3.jpg" 
+							src="https://www.blueeyetour.com/assets_user/img/placeholder.svg"
+							data-src="https://www.blueeyetour.com/assets/resimler/sehirler/41d90-fethiye-paragliding-3.jpg" 
 							class="lazy"
 							alt="Fethiye Tours and Activities">
 						</figure>
@@ -1199,11 +1198,11 @@
 				
 				
 				<div class="top-places-item">
-					<a href="http://localhost/otomasyon/acente/Category/detail/Canakkale-Daily-Tours">
+					<a href="https://www.blueeyetour.com/Category/detail/Canakkale-Daily-Tours">
 						<figure>
 							<img 
-							src="http://localhost/otomasyon/acente/assets_user/img/placeholder.svg"
-							data-src="http://localhost/otomasyon/acente/assets/resimler/sehirler/56026-gallipoli-3.jpg" 
+							src="https://www.blueeyetour.com/assets_user/img/placeholder.svg"
+							data-src="https://www.blueeyetour.com/assets/resimler/sehirler/56026-gallipoli-3.jpg" 
 							class="lazy"
 							alt="Canakkale Daily Tours">
 						</figure>
@@ -1215,27 +1214,11 @@
 				
 				
 				<div class="top-places-item">
-					<a href="http://localhost/otomasyon/acente/Category/detail/Turkey-Tours-">
+					<a href="https://www.blueeyetour.com/Category/detail/Pamukkale-Daily-Tours">
 						<figure>
 							<img 
-							src="http://localhost/otomasyon/acente/assets_user/img/placeholder.svg"
-							data-src="http://localhost/otomasyon/acente/assets/resimler/sehirler/9bedf-winter-balloon-flight.jpg" 
-							class="lazy"
-							alt="Turkey Tours ">
-						</figure>
-						<h5>Turkey Tours </h5>
-					</a>
-				</div>
-
-			
-				
-				
-				<div class="top-places-item">
-					<a href="http://localhost/otomasyon/acente/Category/detail/Pamukkale-Daily-Tours">
-						<figure>
-							<img 
-							src="http://localhost/otomasyon/acente/assets_user/img/placeholder.svg"
-							data-src="http://localhost/otomasyon/acente/assets/resimler/sehirler/c7828-traverten.jpg" 
+							src="https://www.blueeyetour.com/assets_user/img/placeholder.svg"
+							data-src="https://www.blueeyetour.com/assets/resimler/sehirler/c7828-traverten.jpg" 
 							class="lazy"
 							alt="Pamukkale Daily Tours">
 						</figure>
@@ -1247,11 +1230,11 @@
 				
 				
 				<div class="top-places-item">
-					<a href="http://localhost/otomasyon/acente/Category/detail/istanbul-Tours">
+					<a href="https://www.blueeyetour.com/Category/detail/istanbul-Tours">
 						<figure>
 							<img 
-							src="http://localhost/otomasyon/acente/assets_user/img/placeholder.svg"
-							data-src="http://localhost/otomasyon/acente/assets/resimler/sehirler/af641-istanbul-tour-back.jpg" 
+							src="https://www.blueeyetour.com/assets_user/img/placeholder.svg"
+							data-src="https://www.blueeyetour.com/assets/resimler/sehirler/af641-istanbul-tour-back.jpg" 
 							class="lazy"
 							alt="İstanbul Tours">
 						</figure>
@@ -1263,11 +1246,11 @@
 				
 				
 				<div class="top-places-item">
-					<a href="http://localhost/otomasyon/acente/Category/detail/Antalya-Daily-Tours">
+					<a href="https://www.blueeyetour.com/Category/detail/Antalya-Daily-Tours">
 						<figure>
 							<img 
-							src="http://localhost/otomasyon/acente/assets_user/img/placeholder.svg"
-							data-src="http://localhost/otomasyon/acente/assets/resimler/sehirler/2ea22-antalya-1_720x520.jpg" 
+							src="https://www.blueeyetour.com/assets_user/img/placeholder.svg"
+							data-src="https://www.blueeyetour.com/assets/resimler/sehirler/2ea22-antalya-1_720x520.jpg" 
 							class="lazy"
 							alt="Antalya Daily Tours">
 						</figure>
@@ -1279,11 +1262,11 @@
 				
 				
 				<div class="top-places-item">
-					<a href="http://localhost/otomasyon/acente/Category/detail/Cappadocia-Tours-and-Activities">
+					<a href="https://www.blueeyetour.com/Category/detail/Cappadocia-Tours-and-Activities">
 						<figure>
 							<img 
-							src="http://localhost/otomasyon/acente/assets_user/img/placeholder.svg"
-							data-src="http://localhost/otomasyon/acente/assets/resimler/sehirler/3ee88-devrent-vadisi-3-kopya_720x520.jpg" 
+							src="https://www.blueeyetour.com/assets_user/img/placeholder.svg"
+							data-src="https://www.blueeyetour.com/assets/resimler/sehirler/3ee88-devrent-vadisi-3-kopya_720x520.jpg" 
 							class="lazy"
 							alt="Cappadocia Tours and Activities">
 						</figure>
@@ -1295,11 +1278,11 @@
 				
 				
 				<div class="top-places-item">
-					<a href="http://localhost/otomasyon/acente/Category/detail/Hot-Air-Balloon-Flights">
+					<a href="https://www.blueeyetour.com/Category/detail/Hot-Air-Balloon-Flights">
 						<figure>
 							<img 
-							src="http://localhost/otomasyon/acente/assets_user/img/placeholder.svg"
-							data-src="http://localhost/otomasyon/acente/assets/resimler/sehirler/c5ff1-hot-air-balloons_720x520.jpg" 
+							src="https://www.blueeyetour.com/assets_user/img/placeholder.svg"
+							data-src="https://www.blueeyetour.com/assets/resimler/sehirler/c5ff1-hot-air-balloons_720x520.jpg" 
 							class="lazy"
 							alt="Hot Air Balloon Flights">
 						</figure>
@@ -1318,11 +1301,27 @@
 			Most Popular Cities		</h4>
 		<div class="top-places-inner">
 						<div class="top-countries-item">
-				<a href="http://localhost/otomasyon/acente/Categories/detail/Sanliurfa"></a>
+				<a href="https://www.blueeyetour.com/Categories/detail/Adiyaman"></a>
 				<figure>
 					<img 
-					src="http://localhost/otomasyon/acente/assets_user/img/placeholder.svg"
-					data-src="http://localhost/otomasyon/acente/assets/resimler/sehirler/6d708-goebeklitepe.jpg"
+					src="https://www.blueeyetour.com/assets_user/img/placeholder.svg"
+					data-src="https://www.blueeyetour.com/assets/resimler/sehirler/b09da-adiyaman.jpg"
+					class="lazy"
+					alt="Adıyaman">
+				</figure>
+				<figcaption class="top-destination-comment">
+					<h5>Adıyaman</h5>
+
+					<span>2					Tour and Hotel				</span>
+			</figcaption>
+
+		</div>
+					<div class="top-countries-item">
+				<a href="https://www.blueeyetour.com/Categories/detail/Sanliurfa"></a>
+				<figure>
+					<img 
+					src="https://www.blueeyetour.com/assets_user/img/placeholder.svg"
+					data-src="https://www.blueeyetour.com/assets/resimler/sehirler/6d708-goebeklitepe.jpg"
 					class="lazy"
 					alt="Sanlıurfa">
 				</figure>
@@ -1334,27 +1333,27 @@
 
 		</div>
 					<div class="top-countries-item">
-				<a href="http://localhost/otomasyon/acente/Categories/detail/Trabzon"></a>
+				<a href="https://www.blueeyetour.com/Categories/detail/Trabzon"></a>
 				<figure>
 					<img 
-					src="http://localhost/otomasyon/acente/assets_user/img/placeholder.svg"
-					data-src="http://localhost/otomasyon/acente/assets/resimler/sehirler/cc62c-uzungol_2.jpg"
+					src="https://www.blueeyetour.com/assets_user/img/placeholder.svg"
+					data-src="https://www.blueeyetour.com/assets/resimler/sehirler/cc62c-uzungol_2.jpg"
 					class="lazy"
 					alt="Trabzon">
 				</figure>
 				<figcaption class="top-destination-comment">
 					<h5>Trabzon</h5>
 
-					<span>6					Tour and Hotel				</span>
+					<span>					Tour and Hotel				</span>
 			</figcaption>
 
 		</div>
 					<div class="top-countries-item">
-				<a href="http://localhost/otomasyon/acente/Categories/detail/Konya"></a>
+				<a href="https://www.blueeyetour.com/Categories/detail/Konya"></a>
 				<figure>
 					<img 
-					src="http://localhost/otomasyon/acente/assets_user/img/placeholder.svg"
-					data-src="http://localhost/otomasyon/acente/assets/resimler/sehirler/ca334-konya-1.jpg"
+					src="https://www.blueeyetour.com/assets_user/img/placeholder.svg"
+					data-src="https://www.blueeyetour.com/assets/resimler/sehirler/ca334-konya-1.jpg"
 					class="lazy"
 					alt="Konya">
 				</figure>
@@ -1366,27 +1365,43 @@
 
 		</div>
 					<div class="top-countries-item">
-				<a href="http://localhost/otomasyon/acente/Categories/detail/Safranbolu"></a>
+				<a href="https://www.blueeyetour.com/Categories/detail/Safranbolu"></a>
 				<figure>
 					<img 
-					src="http://localhost/otomasyon/acente/assets_user/img/placeholder.svg"
-					data-src="http://localhost/otomasyon/acente/assets/resimler/sehirler/8154a-safranbolu-evleri-720x520.jpg"
+					src="https://www.blueeyetour.com/assets_user/img/placeholder.svg"
+					data-src="https://www.blueeyetour.com/assets/resimler/sehirler/8154a-safranbolu-evleri-720x520.jpg"
 					class="lazy"
 					alt="Safranbolu">
 				</figure>
 				<figcaption class="top-destination-comment">
 					<h5>Safranbolu</h5>
 
-					<span>3					Tour and Hotel				</span>
+					<span>					Tour and Hotel				</span>
 			</figcaption>
 
 		</div>
 					<div class="top-countries-item">
-				<a href="http://localhost/otomasyon/acente/Categories/detail/Canakkale"></a>
+				<a href="https://www.blueeyetour.com/Categories/detail/Ankara"></a>
 				<figure>
 					<img 
-					src="http://localhost/otomasyon/acente/assets_user/img/placeholder.svg"
-					data-src="http://localhost/otomasyon/acente/assets/resimler/sehirler/1f6f9-truva-ati.jpg"
+					src="https://www.blueeyetour.com/assets_user/img/placeholder.svg"
+					data-src="https://www.blueeyetour.com/assets/resimler/sehirler/02909-anitkabir-05.jpg"
+					class="lazy"
+					alt="Ankara">
+				</figure>
+				<figcaption class="top-destination-comment">
+					<h5>Ankara</h5>
+
+					<span>2					Tour and Hotel				</span>
+			</figcaption>
+
+		</div>
+					<div class="top-countries-item">
+				<a href="https://www.blueeyetour.com/Categories/detail/Canakkale"></a>
+				<figure>
+					<img 
+					src="https://www.blueeyetour.com/assets_user/img/placeholder.svg"
+					data-src="https://www.blueeyetour.com/assets/resimler/sehirler/1f6f9-truva-ati.jpg"
 					class="lazy"
 					alt="Canakkale">
 				</figure>
@@ -1398,82 +1413,82 @@
 
 		</div>
 					<div class="top-countries-item">
-				<a href="http://localhost/otomasyon/acente/Categories/detail/Fethiye"></a>
+				<a href="https://www.blueeyetour.com/Categories/detail/Turkey-Package-Tours-"></a>
 				<figure>
 					<img 
-					src="http://localhost/otomasyon/acente/assets_user/img/placeholder.svg"
-					data-src="http://localhost/otomasyon/acente/assets/resimler/sehirler/65992-fethiye-paragliding-3.jpg"
-					class="lazy"
-					alt="Fethiye">
-				</figure>
-				<figcaption class="top-destination-comment">
-					<h5>Fethiye</h5>
-
-					<span>19					Tour and Hotel				</span>
-			</figcaption>
-
-		</div>
-					<div class="top-countries-item">
-				<a href="http://localhost/otomasyon/acente/Categories/detail/Turkey-Package-Tours-"></a>
-				<figure>
-					<img 
-					src="http://localhost/otomasyon/acente/assets_user/img/placeholder.svg"
-					data-src="http://localhost/otomasyon/acente/assets/resimler/sehirler/0b653-winter-balloon-flight.jpg"
+					src="https://www.blueeyetour.com/assets_user/img/placeholder.svg"
+					data-src="https://www.blueeyetour.com/assets/resimler/sehirler/e9acb-ege-3019017_1920.jpg"
 					class="lazy"
 					alt="Turkey Package Tours ">
 				</figure>
 				<figcaption class="top-destination-comment">
 					<h5>Turkey Package Tours </h5>
 
-					<span>3					Tour and Hotel				</span>
+					<span>					Tour and Hotel				</span>
 			</figcaption>
 
 		</div>
 					<div class="top-countries-item">
-				<a href="http://localhost/otomasyon/acente/Categories/detail/istanbul"></a>
+				<a href="https://www.blueeyetour.com/Categories/detail/istanbul"></a>
 				<figure>
 					<img 
-					src="http://localhost/otomasyon/acente/assets_user/img/placeholder.svg"
-					data-src="http://localhost/otomasyon/acente/assets/resimler/sehirler/8bb34-ayasofya-59_720x520.jpg"
+					src="https://www.blueeyetour.com/assets_user/img/placeholder.svg"
+					data-src="https://www.blueeyetour.com/assets/resimler/sehirler/6b2e0-river-4873198_1920.jpg"
 					class="lazy"
 					alt="İstanbul">
 				</figure>
 				<figcaption class="top-destination-comment">
 					<h5>İstanbul</h5>
 
-					<span>11					Tour and Hotel				</span>
+					<span>6					Tour and Hotel				</span>
 			</figcaption>
 
 		</div>
 					<div class="top-countries-item">
-				<a href="http://localhost/otomasyon/acente/Categories/detail/Pamukkale"></a>
+				<a href="https://www.blueeyetour.com/Categories/detail/Pamukkale"></a>
 				<figure>
 					<img 
-					src="http://localhost/otomasyon/acente/assets_user/img/placeholder.svg"
-					data-src="http://localhost/otomasyon/acente/assets/resimler/sehirler/42cd0-traverten.jpg"
+					src="https://www.blueeyetour.com/assets_user/img/placeholder.svg"
+					data-src="https://www.blueeyetour.com/assets/resimler/sehirler/42cd0-traverten.jpg"
 					class="lazy"
 					alt="Pamukkale">
 				</figure>
 				<figcaption class="top-destination-comment">
 					<h5>Pamukkale</h5>
 
-					<span>8					Tour and Hotel				</span>
+					<span>6					Tour and Hotel				</span>
 			</figcaption>
 
 		</div>
 					<div class="top-countries-item">
-				<a href="http://localhost/otomasyon/acente/Categories/detail/Cappadocia"></a>
+				<a href="https://www.blueeyetour.com/Categories/detail/Antalya"></a>
 				<figure>
 					<img 
-					src="http://localhost/otomasyon/acente/assets_user/img/placeholder.svg"
-					data-src="http://localhost/otomasyon/acente/assets/resimler/sehirler/a3b81-8456e-kapadokya-balon.jpg"
+					src="https://www.blueeyetour.com/assets_user/img/placeholder.svg"
+					data-src="https://www.blueeyetour.com/assets/resimler/sehirler/cfeae-antalya-1_720x520.jpg"
+					class="lazy"
+					alt="Antalya">
+				</figure>
+				<figcaption class="top-destination-comment">
+					<h5>Antalya</h5>
+
+					<span>4					Tour and Hotel				</span>
+			</figcaption>
+
+		</div>
+					<div class="top-countries-item">
+				<a href="https://www.blueeyetour.com/Categories/detail/Cappadocia"></a>
+				<figure>
+					<img 
+					src="https://www.blueeyetour.com/assets_user/img/placeholder.svg"
+					data-src="https://www.blueeyetour.com/assets/resimler/sehirler/04837-stocksnap_f90e2e0647.jpg"
 					class="lazy"
 					alt="Cappadocia">
 				</figure>
 				<figcaption class="top-destination-comment">
 					<h5>Cappadocia</h5>
 
-					<span>23					Tour and Hotel				</span>
+					<span>17					Tour and Hotel				</span>
 			</figcaption>
 
 		</div>
@@ -1505,122 +1520,122 @@
 						Popular on BlueEye					</h5>	
 					<div class="t-e-inner">
 						<div class="t-e-r">
-														<a href="http://localhost/otomasyon/acente/Tour/detail/Cabaret-Night">
+														<a href="https://www.blueeyetour.com/Tour/detail/Fethiye-Cabaret-Night">
 								<!-- icon implementation in function.js/425 -->
 								<span class="t-e__icon"></span>
-								<span>Cabaret Night</span>
+								<span>Fethiye Cabaret Night</span>
 							</a>
-																					<a href="http://localhost/otomasyon/acente/Tour/detail/Turkish-Bath-">
+																					<a href="https://www.blueeyetour.com/Tour/detail/Fethiye-Turkish-Bath-">
 								<!-- icon implementation in function.js/425 -->
 								<span class="t-e__icon"></span>
-								<span>Turkish Bath </span>
+								<span>Fethiye Turkish Bath </span>
 							</a>
-																					<a href="http://localhost/otomasyon/acente/Tour/detail/White-Water-Rafting">
+																					<a href="https://www.blueeyetour.com/Tour/detail/White-Water-Rafting-Fethiye">
 								<!-- icon implementation in function.js/425 -->
 								<span class="t-e__icon"></span>
-								<span>White Water Rafting</span>
+								<span>White Water Rafting Fethiye</span>
 							</a>
-																					<a href="http://localhost/otomasyon/acente/Tour/detail/Sunset-Moonlight-Cruise">
+																					<a href="https://www.blueeyetour.com/Tour/detail/Fethiye-Sunset-Moonlight-Cruise">
 								<!-- icon implementation in function.js/425 -->
 								<span class="t-e__icon"></span>
-								<span>Sunset Moonlight Cruise</span>
+								<span>Fethiye Sunset Moonlight Cruise</span>
 							</a>
-																					<a href="http://localhost/otomasyon/acente/Tour/detail/Camel-Riding">
+																					<a href="https://www.blueeyetour.com/Tour/detail/Fethiye-Camel-Riding">
 								<!-- icon implementation in function.js/425 -->
 								<span class="t-e__icon"></span>
-								<span>Camel Riding</span>
+								<span>Fethiye Camel Riding</span>
 							</a>
-																					<a href="http://localhost/otomasyon/acente/Tour/detail/Fethiye-Olympos-Cabin-Cruise-4-Days">
+																					<a href="https://www.blueeyetour.com/Tour/detail/Fethiye-Olympos-Cabin-Cruise-4-Days">
 								<!-- icon implementation in function.js/425 -->
 								<span class="t-e__icon"></span>
 								<span>Fethiye Olympos Cabin Cruise 4 Days</span>
 							</a>
-																					<a href="http://localhost/otomasyon/acente/Tour/detail/Marmaris-icmeler-Turu">
+																					<a href="https://www.blueeyetour.com/Tour/detail/Marmaris-icmeler-Tour">
 								<!-- icon implementation in function.js/425 -->
 								<span class="t-e__icon"></span>
-								<span>Marmaris İcmeler Turu</span>
+								<span>Marmaris İcmeler Tour</span>
 							</a>
-																					<a href="http://localhost/otomasyon/acente/Tour/detail/Scuba-Diving-Fethiye">
+																					<a href="https://www.blueeyetour.com/Tour/detail/Scuba-Diving-Fethiye">
 								<!-- icon implementation in function.js/425 -->
 								<span class="t-e__icon"></span>
 								<span>Scuba Diving Fethiye</span>
 							</a>
-																					<a href="http://localhost/otomasyon/acente/Tour/detail/Horse-Riding-Tours-Fethiye">
+																					<a href="https://www.blueeyetour.com/Tour/detail/Fethiye-Horse-Riding-Tours">
 								<!-- icon implementation in function.js/425 -->
 								<span class="t-e__icon"></span>
-								<span>Horse Riding Tours (Fethiye)</span>
+								<span>Fethiye Horse Riding Tours</span>
 							</a>
-																					<a href="http://localhost/otomasyon/acente/Tour/detail/Jeep-Safari">
+																					<a href="https://www.blueeyetour.com/Tour/detail/Fethiye-Jeep-Safari">
 								<!-- icon implementation in function.js/425 -->
 								<span class="t-e__icon"></span>
-								<span>Jeep Safari</span>
+								<span>Fethiye Jeep Safari</span>
 							</a>
-																					<a href="http://localhost/otomasyon/acente/Tour/detail/12-Islands-Daily-Boat-Tour">
+																					<a href="https://www.blueeyetour.com/Tour/detail/12-Islands-Daily-Boat-Tour">
 								<!-- icon implementation in function.js/425 -->
 								<span class="t-e__icon"></span>
 								<span>12 Islands Daily Boat Tour</span>
 							</a>
-																					<a href="http://localhost/otomasyon/acente/Tour/detail/Saklikent-Tlos-Yakapark-Tour">
+																					<a href="https://www.blueeyetour.com/Tour/detail/Fethiye-Saklikent-Tlos-Yakapark-Tour">
 								<!-- icon implementation in function.js/425 -->
 								<span class="t-e__icon"></span>
-								<span>Saklıkent Tlos Yakapark Tour</span>
+								<span>Fethiye Saklıkent Tlos Yakapark Tour</span>
 							</a>
-																					<a href="http://localhost/otomasyon/acente/Tour/detail/Dalyan-Mud-Bath-">
+																					<a href="https://www.blueeyetour.com/Tour/detail/Fethiye-Dalyan-Mud-Bath-">
 								<!-- icon implementation in function.js/425 -->
 								<span class="t-e__icon"></span>
-								<span>Dalyan Mud Bath </span>
+								<span>Fethiye Dalyan Mud Bath </span>
 							</a>
-							</div><div class="t-e-l">														<a href="http://localhost/otomasyon/acente/Tour/detail/3-Days-Safranbolu-Amasra-Tour-From-istanbul">
+							</div><div class="t-e-l">														<a href="https://www.blueeyetour.com/Tour/detail/3-Days-Safranbolu-Amasra-Tour-From-istanbul">
 								<!-- icon implementation in function.js/425 -->
 								<span class="t-e__icon"></span>
 								<span>3 Days Safranbolu Amasra Tour From İstanbul</span>
 							</a>
-																					<a href="http://localhost/otomasyon/acente/Tour/detail/2-Days-Safranbolu-Amasra-Tour-From-istanbul">
+																					<a href="https://www.blueeyetour.com/Tour/detail/2-Days-Safranbolu-Amasra-Tour-From-istanbul">
 								<!-- icon implementation in function.js/425 -->
 								<span class="t-e__icon"></span>
 								<span>2 Days Safranbolu Amasra Tour From İstanbul</span>
 							</a>
-																					<a href="http://localhost/otomasyon/acente/Tour/detail/Daily-Uzungol-Tour">
+																					<a href="https://www.blueeyetour.com/Tour/detail/Daily-Uzungol-Tour">
 								<!-- icon implementation in function.js/425 -->
 								<span class="t-e__icon"></span>
 								<span>Daily Uzungol Tour</span>
 							</a>
-																					<a href="http://localhost/otomasyon/acente/Tour/detail/Daily-Ayder-Tour">
+																					<a href="https://www.blueeyetour.com/Tour/detail/Daily-Ayder-Tour">
 								<!-- icon implementation in function.js/425 -->
 								<span class="t-e__icon"></span>
 								<span>Daily Ayder Tour</span>
 							</a>
-																					<a href="http://localhost/otomasyon/acente/Tour/detail/Giresun-Ordu-Cable-Car-Tour">
+																					<a href="https://www.blueeyetour.com/Tour/detail/Giresun-Ordu-Cable-Car-Tour">
 								<!-- icon implementation in function.js/425 -->
 								<span class="t-e__icon"></span>
 								<span>Giresun Ordu Cable Car Tour</span>
 							</a>
-																					<a href="http://localhost/otomasyon/acente/Tour/detail/Sumela-Karaca-Zigana-Hamsikoy-Tour">
+																					<a href="https://www.blueeyetour.com/Tour/detail/Sumela-Karaca-Zigana-Hamsikoy-Tour">
 								<!-- icon implementation in function.js/425 -->
 								<span class="t-e__icon"></span>
 								<span>Sümela Karaca Zigana Hamsikoy Tour</span>
 							</a>
-																					<a href="http://localhost/otomasyon/acente/Tour/detail/Daily-Hidirnebi--Cal-Cave-Tour">
+																					<a href="https://www.blueeyetour.com/Tour/detail/Daily-Hidirnebi--Cal-Cave-Tour">
 								<!-- icon implementation in function.js/425 -->
 								<span class="t-e__icon"></span>
 								<span>Daily Hıdırnebi – Cal Cave Tour</span>
 							</a>
-																					<a href="http://localhost/otomasyon/acente/Tour/detail/Daily-Trabzon-City-Tour">
+																					<a href="https://www.blueeyetour.com/Tour/detail/Daily-Trabzon-City-Tour">
 								<!-- icon implementation in function.js/425 -->
 								<span class="t-e__icon"></span>
 								<span>Daily Trabzon City Tour</span>
 							</a>
-																					<a href="http://localhost/otomasyon/acente/Tour/detail/Green-Bursa-Tour-From-Istanbul">
+																					<a href="https://www.blueeyetour.com/Tour/detail/Green-Bursa-Tour-From-Istanbul">
 								<!-- icon implementation in function.js/425 -->
 								<span class="t-e__icon"></span>
 								<span>Green Bursa Tour (From Istanbul)</span>
 							</a>
-																					<a href="http://localhost/otomasyon/acente/Tour/detail/Ankara-Day-Tour--From-Cappadocia-Private">
+																					<a href="https://www.blueeyetour.com/Tour/detail/Ankara-Day-Tour--From-Cappadocia-Private">
 								<!-- icon implementation in function.js/425 -->
 								<span class="t-e__icon"></span>
 								<span>Ankara Day Tour  From Cappadocia (Private)</span>
 							</a>
-																					<a href="http://localhost/otomasyon/acente/Tour/detail/Ankara-Day-Tour-Private-From-Cappadocia">
+																					<a href="https://www.blueeyetour.com/Tour/detail/Ankara-Day-Tour-Private-From-Cappadocia">
 								<!-- icon implementation in function.js/425 -->
 								<span class="t-e__icon"></span>
 								<span>Ankara Day Tour (Private) From Cappadocia</span>
@@ -1631,7 +1646,7 @@
 
 					</div>
 					<p>
-						Do you wonder what other events do we have in other cities?						<a href="http://localhost/otomasyon/acente/All_categories">
+						Do you wonder what other events do we have in other cities?						<a href="https://www.blueeyetour.com/All_categories">
 							Select tours and events by Cities.						</a>
 					</p>
 				</div>
@@ -1647,11 +1662,25 @@
 								
 
 							<div class="top-places-inner__div">
-								<a href="http://localhost/otomasyon/acente/Categories/detail/Sanliurfa"></a>
+								<a href="https://www.blueeyetour.com/Categories/detail/Adiyaman"></a>
 								<figure>
 									<img 
-									src="http://localhost/otomasyon/acente/assets_user/img/placeholder.svg"
-									data-src="http://localhost/otomasyon/acente/assets/resimler/sehirler/6d708-goebeklitepe.jpg"
+									src="https://www.blueeyetour.com/assets_user/img/placeholder.svg"
+									data-src="https://www.blueeyetour.com/assets/resimler/sehirler/b09da-adiyaman.jpg"
+									class="lazy"
+									alt="Adıyaman" />
+								</figure>
+								<h5>Adıyaman</h5>
+							</div>
+
+								
+
+							<div class="top-places-inner__div">
+								<a href="https://www.blueeyetour.com/Categories/detail/Sanliurfa"></a>
+								<figure>
+									<img 
+									src="https://www.blueeyetour.com/assets_user/img/placeholder.svg"
+									data-src="https://www.blueeyetour.com/assets/resimler/sehirler/6d708-goebeklitepe.jpg"
 									class="lazy"
 									alt="Sanlıurfa" />
 								</figure>
@@ -1661,29 +1690,15 @@
 								
 
 							<div class="top-places-inner__div">
-								<a href="http://localhost/otomasyon/acente/Categories/detail/Trabzon"></a>
+								<a href="https://www.blueeyetour.com/Categories/detail/Trabzon"></a>
 								<figure>
 									<img 
-									src="http://localhost/otomasyon/acente/assets_user/img/placeholder.svg"
-									data-src="http://localhost/otomasyon/acente/assets/resimler/sehirler/cc62c-uzungol_2.jpg"
+									src="https://www.blueeyetour.com/assets_user/img/placeholder.svg"
+									data-src="https://www.blueeyetour.com/assets/resimler/sehirler/cc62c-uzungol_2.jpg"
 									class="lazy"
 									alt="Trabzon" />
 								</figure>
 								<h5>Trabzon</h5>
-							</div>
-
-								
-
-							<div class="top-places-inner__div">
-								<a href="http://localhost/otomasyon/acente/Categories/detail/Konya"></a>
-								<figure>
-									<img 
-									src="http://localhost/otomasyon/acente/assets_user/img/placeholder.svg"
-									data-src="http://localhost/otomasyon/acente/assets/resimler/sehirler/ca334-konya-1.jpg"
-									class="lazy"
-									alt="Konya" />
-								</figure>
-								<h5>Konya</h5>
 							</div>
 
 								
@@ -1710,7 +1725,16 @@
 						
 							
 
-							<a href="http://localhost/otomasyon/acente/Categories/detail/Safranbolu"><span>3</span><span>
+							<a href="https://www.blueeyetour.com/Categories/detail/Konya"><span>2</span><span>
+								Konya							</span></a>	
+							
+
+
+
+						
+							
+
+							<a href="https://www.blueeyetour.com/Categories/detail/Safranbolu"><span></span><span>
 								Safranbolu							</span></a>	
 							
 
@@ -1719,7 +1743,16 @@
 						
 							
 
-							<a href="http://localhost/otomasyon/acente/Categories/detail/Canakkale"><span>4</span><span>
+							<a href="https://www.blueeyetour.com/Categories/detail/Ankara"><span>2</span><span>
+								Ankara							</span></a>	
+							
+
+
+
+						
+							
+
+							<a href="https://www.blueeyetour.com/Categories/detail/Canakkale"><span>4</span><span>
 								Canakkale							</span></a>	
 							
 
@@ -1728,16 +1761,7 @@
 						
 							
 
-							<a href="http://localhost/otomasyon/acente/Categories/detail/Fethiye"><span>19</span><span>
-								Fethiye							</span></a>	
-							
-
-
-
-						
-							
-
-							<a href="http://localhost/otomasyon/acente/Categories/detail/Turkey-Package-Tours-"><span>3</span><span>
+							<a href="https://www.blueeyetour.com/Categories/detail/Turkey-Package-Tours-"><span></span><span>
 								Turkey Package Tours 							</span></a>	
 							
 
@@ -1746,7 +1770,7 @@
 						
 							
 
-							<a href="http://localhost/otomasyon/acente/Categories/detail/istanbul"><span>11</span><span>
+							<a href="https://www.blueeyetour.com/Categories/detail/istanbul"><span>6</span><span>
 								İstanbul							</span></a>	
 							
 
@@ -1755,7 +1779,7 @@
 						
 							
 
-							<a href="http://localhost/otomasyon/acente/Categories/detail/Pamukkale"><span>8</span><span>
+							<a href="https://www.blueeyetour.com/Categories/detail/Pamukkale"><span>6</span><span>
 								Pamukkale							</span></a>	
 							
 
@@ -1764,7 +1788,16 @@
 						
 							
 
-							<a href="http://localhost/otomasyon/acente/Categories/detail/Cappadocia"><span>23</span><span>
+							<a href="https://www.blueeyetour.com/Categories/detail/Antalya"><span>4</span><span>
+								Antalya							</span></a>	
+							
+
+
+
+						
+							
+
+							<a href="https://www.blueeyetour.com/Categories/detail/Cappadocia"><span>17</span><span>
 								Cappadocia							</span></a>	
 							
 
@@ -1802,43 +1835,43 @@
 
 <div class="carousel">
 	<a class="carousel-item" href="#tripadvisor!">
-		<img src="http://localhost/otomasyon/acente/assets_user/img/placeholder.svg"
-		data-src="http://localhost/otomasyon/acente/assets_user/img/tripadvisor.jpg"
+		<img src="https://www.blueeyetour.com/assets_user/img/placeholder.svg"
+		data-src="https://www.blueeyetour.com/assets_user/img/tripadvisor.jpg"
 		class="lazy"
 		alt="tripadvisor logo"
 		/>
 	</a>
 	<a class="carousel-item" href="#tursap!">
-		<img src="http://localhost/otomasyon/acente/assets_user/img/placeholder.svg"
-		data-src="http://localhost/otomasyon/acente/assets_user/img/tursap.jpg"
+		<img src="https://www.blueeyetour.com/assets_user/img/placeholder.svg"
+		data-src="https://www.blueeyetour.com/assets_user/img/tursap.jpg"
 		class="lazy"
 		alt="tursab logo"
 		/>
 	</a>
 	<a class="carousel-item" href="#viator!">
-		<img src="http://localhost/otomasyon/acente/assets_user/img/placeholder.svg"
-		data-src="http://localhost/otomasyon/acente/assets_user/img/viator.jpg"
+		<img src="https://www.blueeyetour.com/assets_user/img/placeholder.svg"
+		data-src="https://www.blueeyetour.com/assets_user/img/viator.jpg"
 		class="lazy"
 		alt="viator logo"
 		/>
 	</a>
 	<a class="carousel-item" href="#ctrip!">
-		<img src="http://localhost/otomasyon/acente/assets_user/img/placeholder.svg"
-		data-src="http://localhost/otomasyon/acente/assets_user/img/ctrip.jpg"
+		<img src="https://www.blueeyetour.com/assets_user/img/placeholder.svg"
+		data-src="https://www.blueeyetour.com/assets_user/img/ctrip.jpg"
 		class="lazy"
 		alt="ctrip logo"
 		/>
 	</a>
 	<a class="carousel-item" href="#expedia!">
-		<img src="http://localhost/otomasyon/acente/assets_user/img/placeholder.svg"
-		data-src="http://localhost/otomasyon/acente/assets_user/img/expedia.jpeg"
+		<img src="https://www.blueeyetour.com/assets_user/img/placeholder.svg"
+		data-src="https://www.blueeyetour.com/assets_user/img/expedia.jpeg"
 		class="lazy"
 		alt="expedia logo"
 		/>
 	</a>
 	<a class="carousel-item" href="#trip!">
-		<img src="http://localhost/otomasyon/acente/assets_user/img/placeholder.svg"
-		data-src="http://localhost/otomasyon/acente/assets_user/img/trip.jpg"
+		<img src="https://www.blueeyetour.com/assets_user/img/placeholder.svg"
+		data-src="https://www.blueeyetour.com/assets_user/img/trip.jpg"
 		class="lazy"
 		alt="trip logo"
 		/>
@@ -1854,19 +1887,19 @@
 					Support				</h5>
 				<ul>
 					<li>
-						<a class="grey-text text-lighten-3" href="http://localhost/otomasyon/acente/contact">
+						<a class="grey-text text-lighten-3" href="https://www.blueeyetour.com/contact">
 							Contact						</a>
 					</li>
 					<li>
-						<a class="grey-text text-lighten-3" href="http://localhost/otomasyon/acente/pages/detail/yasal">
+						<a class="grey-text text-lighten-3" href="https://www.blueeyetour.com/pages/detail/yasal">
 							Legal						</a>
 					</li>
 					<li>
-						<a class="grey-text text-lighten-3" href="http://localhost/otomasyon/acente/pages/detail/gizlilik-politikasi">
+						<a class="grey-text text-lighten-3" href="https://www.blueeyetour.com/pages/detail/gizlilik-politikasi">
 							Privacy Policy						</a>
 					</li>
 					<li>
-						<a class="grey-text text-lighten-3" href="http://localhost/otomasyon/acente/pages/detail/kullanim-kosullari">
+						<a class="grey-text text-lighten-3" href="https://www.blueeyetour.com/pages/detail/kullanim-kosullari">
 							Terms of Use						</a>
 					</li>
 				</ul>
@@ -1877,15 +1910,15 @@
 
 				<ul>
 					<li>
-						<a class="grey-text text-lighten-3" href="http://localhost/otomasyon/acente/pages/detail/hakkimizda">
+						<a class="grey-text text-lighten-3" href="https://www.blueeyetour.com/pages/detail/hakkimizda">
 							Company						</a>
 					</li>
 					<li>
-						<a class="grey-text text-lighten-3" href="http://localhost/otomasyon/acente/pages/detail/kariyer">
+						<a class="grey-text text-lighten-3" href="https://www.blueeyetour.com/pages/detail/kariyer">
 							Careers						</a>
 					</li>
 					<li>
-						<a class="grey-text text-lighten-3" href="http://localhost/otomasyon/acente/pages/detail/mesafeli-satis-sozlesmesi">
+						<a class="grey-text text-lighten-3" href="https://www.blueeyetour.com/pages/detail/mesafeli-satis-sozlesmesi">
 							Distance Sales Contract 						</a>
 					</li>
 					<li>
@@ -1899,21 +1932,21 @@
 					Work With Us				</h5>
 				<ul>
 					<li>
-						<a class="grey-text text-lighten-3" href="http://localhost/otomasyon/acente/pages/detail/ortaklik-yonetimi">
+						<a class="grey-text text-lighten-3" href="https://www.blueeyetour.com/pages/detail/ortaklik-yonetimi">
 							Supplier Administration						</a>
 					</li>
 				</ul>
 				<h5 class="white-text">
 					Ways You Can Pay				</h5>
 				<div class="payments">
-					<img src="http://localhost/otomasyon/acente/assets_user/img/visa.svg" alt="visa">
-					<img src="http://localhost/otomasyon/acente/assets_user/img/maestro.svg" alt="maestro">
-					<img src="http://localhost/otomasyon/acente/assets_user/img/mastercard.svg" alt="mastercard">
+					<img src="https://www.blueeyetour.com/assets_user/img/visa.svg" alt="visa">
+					<img src="https://www.blueeyetour.com/assets_user/img/maestro.svg" alt="maestro">
+					<img src="https://www.blueeyetour.com/assets_user/img/mastercard.svg" alt="mastercard">
 				</div>
 			</div>
 			<div class="col l3 s12">
 				<a href="https://www.tursab.org.tr/tr/ddsv" rel="noreferrer" target="_blank">
-					<img style="margin: 1.0933333333rem 0 .656rem 0;" src="http://localhost/otomasyon/acente/assets_user/img/tursab-en.png" alt="TURSAB logo" />
+					<img style="margin: 1.0933333333rem 0 .656rem 0;" src="https://www.blueeyetour.com/assets_user/img/tursab-en.png" alt="TURSAB logo" />
 				</a>
 				
 			</div>
@@ -1921,16 +1954,16 @@
 	</div>
 	<div class="footer-copyright">
 		<div class="container">
-			<a href="?php echo base_url(); ?>pages/detail/hakkimizda">© 2020 Blue Eye.
+			<a href="?php echo base_url(); ?>pages/detail/hakkimizda">© 2021 Blue Eye.
 				All rights reserved			</a>
 			<div class="social">
 					
 											<a href="https://www.facebook.com/blueeyetour">
-							<img src="http://localhost/otomasyon/acente/assets_user/img/001-facebook.svg" alt="facebook">
+							<img src="https://www.blueeyetour.com/assets_user/img/001-facebook.svg" alt="facebook">
 						</a>
 					
 											<a href="https://www.instagram.com/blueeyetour">
-							<img src="http://localhost/otomasyon/acente/assets_user/img/002-instagram.svg" alt="instagram">
+							<img src="https://www.blueeyetour.com/assets_user/img/002-instagram.svg" alt="instagram">
 						</a>
 					
 					
@@ -1944,7 +1977,7 @@
 </div>
 </footer>
 
-<script src="http://localhost/otomasyon/acente/assets_user/js/lazy-load.js"></script>
+<script src="https://www.blueeyetour.com/assets_user/js/lazy-load.js"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144549165-1"></script>
 <script>
 	window.dataLayer = window.dataLayer || [];
@@ -1955,10 +1988,12 @@
 </script>
 
 
+
+
 <!-- jQuery.js -->
-<script src="http://localhost/otomasyon/acente/assets_user/js/jquery-3.4.1.min.js"></script>
+<script src="https://www.blueeyetour.com/assets_user/js/jquery-3.4.1.min.js"></script>
 <!-- materalize.js -->
-<script src="http://localhost/otomasyon/acente/assets_user/js/materialize.min.js"></script>
+<script src="https://www.blueeyetour.com/assets_user/js/materialize.min.js"></script>
 <script>
 	var elem = document.querySelector('.tabs');
 	var instance = M.Tabs.init(elem);
@@ -1968,6 +2003,6 @@
 	});
 </script>
 <!-- function.js -->
-<script src="http://localhost/otomasyon/acente/assets_user/js/function.js"></script>
+<script src="https://www.blueeyetour.com/assets_user/js/function.js"></script>
 </body>
 </html>

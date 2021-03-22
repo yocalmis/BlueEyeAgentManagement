@@ -1528,9 +1528,10 @@ $(document).ready(function(){
 			event.stopPropagation();
 			$('#sign-in').modal('open');
 		}
-		if ((localStorage.getItem('leadInfo')) && (!window.flags.isLead)) {
+		
+		let leadInfo = JSON.parse(localStorage.getItem('leadInfo')) || {}
+		if (leadInfo && !window.flags.isLead && leadInfo?.currentUser === window.userInfo.mail) {
 			window.flags.isLead = true
-			let leadInfo = JSON.parse(localStorage.getItem('leadInfo'))
 
 			let howMuchItems = [...$('.spt_b_btn')];
 			howMuchItems.forEach((item, i) => {
@@ -1735,6 +1736,7 @@ $(document).ready(function(){
 				[...modul.find('[lider]')].forEach(input => {
 					leadInfo[input.getAttribute('lider')] = input.value;
 				});
+				leadInfo.currentUser = window.userInfo === "" ? null : window.userInfo.mail
 				localStorage.setItem('leadInfo', JSON.stringify(leadInfo));
 
 

@@ -56,9 +56,11 @@
 					</span>
 					<?php echo $this->session->userdata('lng')["spt_ust_bslk"]; ?>
 				</h4>
+				<?php if($onrezadet!=0){ ?>
 				<span style="float:right;">
 					<b><?php echo $this->session->userdata('lng')["e_git"].$this->session->userdata('lng')["on_rzrv"] ?></b>
 				</span>
+				<?php } ?>
 			</section>
 			<section class="card-inner">
 				<div class="prdcs-i">

@@ -225,6 +225,9 @@ class Search extends CI_Controller {
 
 	    $data["kat_getir"][$n]=$this->Search_model->kat_getir($dizi["kat_id"],$uz);
 	    $data["fyt_getir"][$n]=$this->Search_model->fyt($dizi["kod"]);	
+	    $data["fyt_ind_onc"][$n]=$this->Search_model->fyt_ind_onc($dizi["kod"]);		    
+	    
+	    
 		$data["tur_yorum"][$dizi["id"]]=$this->Search_model->tur_yorum($dizi["id"]);	
 
 		

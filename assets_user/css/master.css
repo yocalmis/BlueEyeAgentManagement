@@ -4516,7 +4516,7 @@ textarea.materialize-textarea:focus:not([readonly])+label{
 .clicked-input{
 	position: relative;
 }
-.input-field:not(.datepicker, .kisi-sayisi):before{
+.input-field :not(.datepicker, .kisi-sayisi):before{
 	content: '';
 	position: absolute;
 	z-index: 1;
@@ -7709,4 +7709,8 @@ label[for="exp_end_date"] {
 	font-weight: 500;
 	color: grey;
 	font-size: 75%;
+}
+.modal.modal-fixed-footer .modal-content.sign-in-email {
+    top: 56px;
+    
 }

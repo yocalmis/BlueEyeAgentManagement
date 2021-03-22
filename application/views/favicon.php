@@ -126,6 +126,9 @@
 			post_comment_ok: '<?php echo $this->session->userdata('lng')["rez_post_comment_ok"]; ?>'
 		}
 	}
+	window.userInfo = {
+	    mail: "<?php echo $this->session->userdata('useronline'); ?>"
+	}
 
 
 </script>

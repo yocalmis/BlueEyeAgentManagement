@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="<?php echo $this->session->userdata('lng')["lang"]; ?>">
-<head>
+<head><meta http-equiv="Content-Type" content="text/html; charset=big5">
 	<title>
 		<?php if( $ayar ) : foreach( $ayar  as $dizi ) : ?>	
 			<?php echo strip_tags($dizi["kisa_aciklama".$uz]); ?>
 		<?php endforeach; endif; ?>
 	</title>
-	<meta charset="utf-8" />
+	
 	
 	<?php if( $ayar ) : foreach( $ayar  as $dizi ) : ?>	
 		<meta name="description" content="<?php echo strip_tags($dizi["kisa_aciklama"]); ?>">
@@ -21,6 +21,8 @@
 	<!-- master.css -->
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets_user/css/master.css" />
 </head>
+
+
 
 <body>
 	<?php $this->load->view('header_ana'); ?>

@@ -658,8 +658,6 @@
 			echo "<div class='icerik_".$f."' style='display:none;'>";
 			echo "<div class='icerik_".$f."_".$mm."'>";
 			echo "
-			<span class='fiyat_aralik__Bas'>".$kisi_fiyat[$f][$mm]["bas_tarih"]."</span>
-			<span class='fiyat_aralik__Bit'>".$kisi_fiyat[$f][$mm]["bit_tarih"]."</span>			
 			<span class='fiyat_aralik__Bas'>".$kisi_fiyat[$f][$mm]["bas_kisi"]."</span>
 			<span class='fiyat_aralik__Bit'>".$kisi_fiyat[$f][$mm]["bit_kisi"]."</span>
 			<span class='fiyat_aralik__yet_fiyat'>".$kisi_fiyat[$f][$mm]["yetiskin_fiyat"]."</span>

@@ -274,7 +274,13 @@
 
 								</p>
 								<p class="timeprice__withDiscount">
-									<small><del>90€</del></small>
+									<small><del>	<?php 
+									if($fyt_ind_onc[$n]==0){}
+									else{
+									
+									echo round($fyt_ind_onc[$n]*$this->session->userdata('currency'))." ".$this->session->userdata('currency_icon');
+									}
+									?></del></small>
 									<?php 
 									echo round($fyt_getir[$n]*$this->session->userdata('currency'))." ".$this->session->userdata('currency_icon');
 
